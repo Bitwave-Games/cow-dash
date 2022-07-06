@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="40" height="12" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="65">
+ <properties>
+  <property name="hints" value=""/>
+  <property name="time_to_beat" value="14"/>
+ </properties>
+ <tileset firstgid="1" name="grass_level" tilewidth="32" tileheight="32" tilecount="153" columns="17">
+  <image source="../../sprites/tilesets/34tile.png" width="544" height="306"/>
+ </tileset>
+ <tileset firstgid="154" name="object_tilemap_32" tilewidth="32" tileheight="32" tilecount="25" columns="5">
+  <image source="../../sprites/tilesets/object_tilemap_32.png" width="160" height="160"/>
+  <tile id="0">
+   <properties>
+    <property name="item_no" value="5"/>
+    <property name="type" value="costume_head"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="spawn" value="spawn"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="goal" value="goal"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="name" value="pig"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="direction" value="left"/>
+    <property name="name" value="walking_enemy"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="179" name="object_tilemap_16" tilewidth="16" tileheight="16" tilecount="12" columns="4">
+  <image source="../../sprites/tilesets/object_tilemap_16.png" width="64" height="48"/>
+ </tileset>
+ <tileset firstgid="191" name="treetops_big_96" tilewidth="96" tileheight="64" tilecount="2" columns="2">
+  <image source="../../sprites/objects/scenery/treetops_big_96.png" trans="ff00ff" width="192" height="64"/>
+ </tileset>
+ <tileset firstgid="193" name="34tile_beach_temp" tilewidth="33" tileheight="33" spacing="1" margin="1" tilecount="189" columns="21">
+  <image source="../../sprites/tilesets/34tile_beach_temp.png" width="714" height="306"/>
+ </tileset>
+ <layer id="1" name="background" width="40" height="12">
+  <properties>
+   <property name="background" value="background"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFlIA3dMKD3X3kunewus+TkYFBgXFwug8kL09j90kCzZYCYmkcduBzGz3cpwc0Wx+IDUhwH7I8zH0g7E1Fd8LCjVT3ocsju0+Riu6DuYsU94HyghcUw8IK2X2wMPwAFC8E0u/p6D5PNHcoQN2JLkattEjIXejuw+YOZAwAu9YGPQ==
+  </data>
+ </layer>
+ <layer id="2" name="main" width="40" height="12">
+  <data encoding="base64" compression="zlib">
+   eJzVlL8OgjAQxtvRDTUmqITNVWV3U+PsE/jkbuLkCygD3iW95DgO2hJDYpMv9KB/fv340tSa0dojcvwC2NI/4HuZcBW2Ld+cMfmmMP7GNI+YP5QPPcgC96k8tY+P+0mt6MgY8R1BJ9A5gDGx/bXMQa3wScayg5n4rkKhOYzJRR/fR+ErzbD8kZ493JiVi7JuFx/3jDPH8E1s0zfKnfRxCfUKtFbWfYtzaJ4Zt5dR+IhByyN9I98SUZO28H4H2nvOLVnIM42PWm6b5+PPXPEN/2Pl+hvb5uNrZKx/dyw4J3f7146hYO+QD++zWYQOnvqXwrv1CyIrz7M=
+  </data>
+ </layer>
+ <layer id="3" name="foreground" width="40" height="12">
+  <properties>
+   <property name="foreground" value="foreground"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgF1ARvyMC4zBhodxFyHyl68IH/UD0wejC57wwSTa0wxKXmLA71Zxjwg1xGBoY8IM5npK37yAm/sySYSan7zpHoPuRwpYf7CIXfWRzi2MxG9iu13PeLgPsIgQ9Qmpz0SIz7iE1/MowIdiAjbkxMPsRmLzH6YAA5jWEDAMU22oM=
+  </data>
+ </layer>
+ <layer id="4" name="hidden" width="40" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGAb0BAAeAAAE=
+  </data>
+ </layer>
+ <objectgroup color="#e70000" id="5" name="hard-blocks">
+  <object id="1" x="0" y="0" width="32" height="352"/>
+  <object id="2" x="0" y="352" width="1280" height="32"/>
+  <object id="3" x="1248" y="0" width="32" height="352"/>
+  <object id="4" x="1216" y="192" width="32" height="32"/>
+  <object id="5" x="1120" y="256" width="32" height="32"/>
+  <object id="6" x="1056" y="160" width="32" height="32"/>
+  <object id="7" x="960" y="288" width="32" height="32"/>
+  <object id="8" x="864" y="0" width="32" height="288"/>
+  <object id="9" x="32" y="160" width="96" height="32"/>
+  <object id="10" x="160" y="288" width="96" height="32"/>
+ </objectgroup>
+ <objectgroup color="#0055ff" id="6" name="soft-blocks">
+  <object id="11" x="640" y="256" width="96" height="32"/>
+  <object id="12" x="704" y="192" width="96" height="32"/>
+ </objectgroup>
+ <objectgroup id="7" name="objects-32px">
+  <object id="13" name="teleport" gid="161" x="32" y="352" width="32" height="32">
+   <properties>
+    <property name="newX" value="32"/>
+    <property name="newY" value="96"/>
+   </properties>
+  </object>
+  <object id="14" name="start" gid="155" x="64" y="352" width="32" height="32">
+   <properties>
+    <property name="direction" value="right"/>
+    <property name="health" value="100"/>
+   </properties>
+  </object>
+  <object id="15" name="teleport" gid="161" x="288" y="352" width="32" height="32">
+   <properties>
+    <property name="newX" value="32"/>
+    <property name="newY" value="288"/>
+   </properties>
+  </object>
+  <object id="16" name="teleport" gid="161" x="864" y="352" width="32" height="32">
+   <properties>
+    <property name="newX" value="608"/>
+    <property name="newY" value="288"/>
+   </properties>
+  </object>
+  <object id="17" name="teleport" gid="161" x="1216" y="352" width="32" height="32">
+   <properties>
+    <property name="newX" value="864"/>
+    <property name="newY" value="288"/>
+   </properties>
+  </object>
+  <object id="18" name="teleport" gid="161" x="1056" y="352" width="32" height="32">
+   <properties>
+    <property name="newX" value="384"/>
+    <property name="newY" value="32"/>
+   </properties>
+  </object>
+  <object id="19" name="door" gid="165" x="1056" y="352" width="32" height="32">
+   <properties>
+    <property name="color" value="yellow"/>
+   </properties>
+  </object>
+  <object id="20" name="key" gid="183" x="71" y="153" width="16" height="16">
+   <properties>
+    <property name="color" value="yellow"/>
+   </properties>
+  </object>
+  <object id="21" name="chest" gid="154" x="448" y="96" width="32" height="32">
+   <properties>
+    <property name="item_no" value="6"/>
+    <property name="type" value="costume_leg"/>
+   </properties>
+  </object>
+  <object id="22" name="goal" gid="156" x="928" y="128" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup id="8" name="objects-16px">
+  <object id="23" name="veggie" gid="190" x="967" y="344" width="16" height="16"/>
+  <object id="24" name="veggie" gid="190" x="1127" y="345" width="16" height="16"/>
+  <object id="25" name="veggie" gid="190" x="967" y="278" width="16" height="16"/>
+  <object id="26" name="veggie" gid="190" x="1128" y="247" width="16" height="16"/>
+  <object id="27" name="veggie" gid="190" x="1062" y="153" width="16" height="16"/>
+  <object id="28" name="veggie" gid="190" x="649" y="344" width="16" height="16"/>
+  <object id="29" name="veggie" gid="190" x="712" y="344" width="16" height="16"/>
+  <object id="30" name="veggie" gid="190" x="775" y="344" width="16" height="16"/>
+  <object id="31" name="veggie" gid="190" x="680" y="251" width="16" height="16"/>
+  <object id="32" name="veggie" gid="190" x="744" y="183" width="16" height="16"/>
+  <object id="33" name="veggie" gid="190" x="841" y="120" width="16" height="16"/>
+  <object id="34" name="veggie" gid="190" x="841" y="219" width="16" height="16"/>
+  <object id="35" name="veggie" gid="190" x="418" y="179" width="16" height="16"/>
+  <object id="36" name="veggie" gid="190" x="492" y="177" width="16" height="16"/>
+  <object id="37" name="veggie" gid="190" x="425" y="343" width="16" height="16"/>
+  <object id="38" name="veggie" gid="190" x="487" y="343" width="16" height="16"/>
+  <object id="39" name="veggie" gid="190" x="178" y="284" width="16" height="16"/>
+  <object id="40" name="veggie" gid="190" x="224" y="283" width="16" height="16"/>
+  <object id="41" name="veggie" gid="190" x="178" y="343" width="16" height="16"/>
+  <object id="42" name="veggie" gid="190" x="223" y="343" width="16" height="16"/>
+  <object id="43" name="spike" gid="186" x="413" y="143" width="16" height="16"/>
+  <object id="44" name="spike" gid="186" x="438" y="141" width="16" height="16"/>
+  <object id="45" name="spike" gid="186" x="502" y="144" width="16" height="16"/>
+  <object id="46" name="spike" gid="186" x="474" y="140" width="16" height="16"/>
+  <object id="47" name="spike" gid="186" x="200" y="294" width="16" height="16"/>
+  <object id="48" name="spike" gid="186" x="1108" y="279" width="16" height="16"/>
+  <object id="49" name="spike" gid="186" x="1082" y="181" width="16" height="16"/>
+  <object id="50" name="spike" gid="186" x="1018" y="360" width="16" height="16"/>
+  <object id="51" name="spike" gid="186" x="1154" y="361" width="16" height="16"/>
+  <object id="52" name="spike" gid="186" x="358" y="356" width="16" height="16"/>
+  <object id="53" name="spike" gid="186" x="373" y="352" width="16" height="16"/>
+  <object id="54" name="spike" gid="186" x="372" y="335" width="16" height="16"/>
+  <object id="55" name="treetop_palm" gid="177" x="96" y="288" width="32" height="32">
+   <properties>
+    <property name="position" value="front"/>
+   </properties>
+  </object>
+  <object id="56" name="treetop_palm" gid="177" x="320" y="256" width="32" height="32">
+   <properties>
+    <property name="position" value="front"/>
+   </properties>
+  </object>
+  <object id="57" name="treetop_palm" gid="177" x="1024" y="288" width="32" height="32">
+   <properties>
+    <property name="position" value="front"/>
+   </properties>
+  </object>
+  <object id="58" name="treetop_palm" gid="177" x="1184" y="256" width="32" height="32">
+   <properties>
+    <property name="position" value="front"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="9" name="treetop_big"/>
+ <objectgroup color="#00aa00" id="10" name="sand-blocks">
+  <object id="59" x="384" y="96" width="160" height="32"/>
+  <object id="60" x="384" y="128" width="32" height="64"/>
+  <object id="61" x="512" y="128" width="32" height="64"/>
+  <object id="62" x="384" y="288" width="32" height="64"/>
+  <object id="63" x="448" y="224" width="32" height="96"/>
+  <object id="64" x="512" y="288" width="32" height="64"/>
+ </objectgroup>
+</map>

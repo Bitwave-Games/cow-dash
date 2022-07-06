@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="30" height="10" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="hints" value="jump,portal"/>
+  <property name="time_to_beat" value="3"/>
+  <property name="tutorial" value="0"/>
+ </properties>
+ <tileset firstgid="1" name="grass_level" tilewidth="33" tileheight="33" spacing="1" margin="1">
+  <image source="../../sprites/tilesets/34tile.png" width="544" height="306"/>
+ </tileset>
+ <tileset firstgid="145" name="object_tilemap_32" tilewidth="32" tileheight="32">
+  <image source="../../sprites/tilesets/object_tilemap_32.png" width="160" height="160"/>
+  <tile id="0">
+   <properties>
+    <property name="item_no" value="5"/>
+    <property name="type" value="costume_head"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="spawn" value="spawn"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="goal" value="goal"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="name" value="pig"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="direction" value="left"/>
+    <property name="name" value="walking_enemy"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="170" name="object_tilemap_16" tilewidth="16" tileheight="16">
+  <image source="../../sprites/tilesets/object_tilemap_16.png" width="64" height="48"/>
+ </tileset>
+ <tileset firstgid="182" name="treetops_big_96" tilewidth="96" tileheight="64">
+  <image source="../../sprites/objects/scenery/treetops_big_96.png" width="192" height="64"/>
+ </tileset>
+ <layer name="background" width="30" height="10">
+  <properties>
+   <property name="background" value="background"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2BogCoorTqgriAMMgfaATQCHgPtACAAAPfvAVE=
+  </data>
+ </layer>
+ <layer name="main" width="30" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYmBgYGYgDzBSoFcIiIXJ1CtIgd6RZm8IEDcPgL2k6Iuior3KDPjTZBYONsxekH4mHBifubjilxGPeTCsCNWPC+MLCyEcbiZkJjGYkL20wrjiABT+ABdYB/U=
+  </data>
+ </layer>
+ <layer name="foreground" width="30" height="10">
+  <properties>
+   <property name="foreground" value="foreground"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2D4gwg0viQOcVrZNwqoAwDXNwEi
+  </data>
+ </layer>
+ <layer name="hidden" width="30" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFwxkIAbHwqL2jYJgAAAgDAHA=
+  </data>
+ </layer>
+ <layer name="hints" width="30" height="10">
+  <properties>
+   <property name="Jump" value="Keep pressing the screen:to jump high!"/>
+   <property name="Portal" value="The portal is your goal.:Can you reach it in time?"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIKhAQAEsAAB
+  </data>
+ </layer>
+ <objectgroup color="#e70000" name="hard-blocks">
+  <object x="0" y="0" width="32" height="320"/>
+  <object x="64" y="256" width="416" height="64"/>
+  <object x="192" y="224" width="288" height="32"/>
+  <object x="480" y="0" width="64" height="320"/>
+  <object x="544" y="192" width="224" height="128"/>
+  <object x="768" y="288" width="192" height="32"/>
+  <object x="32" y="0" width="32" height="160"/>
+  <object x="32" y="192" width="32" height="128"/>
+ </objectgroup>
+ <objectgroup color="#0055ff" name="soft-blocks"/>
+ <objectgroup name="objects-32px">
+  <object name="start" gid="146" x="64" y="256">
+   <properties>
+    <property name="direction" value="right"/>
+    <property name="health" value="100"/>
+   </properties>
+  </object>
+  <object name="bush" gid="165" x="160" y="256"/>
+  <object name="bush" gid="165" x="448" y="224"/>
+  <object name="bush" gid="165" x="560" y="192">
+   <properties>
+    <property name="position" value="front"/>
+   </properties>
+  </object>
+  <object name="treetop_maple" gid="166" x="256" y="192"/>
+  <object name="treetop_maple" gid="166" x="352" y="160"/>
+  <object name="chest" gid="145" x="32" y="192">
+   <properties>
+    <property name="item_no" value="5"/>
+    <property name="type" value="costume_head"/>
+   </properties>
+  </object>
+  <object name="goal" gid="147" x="408" y="168"/>
+ </objectgroup>
+ <objectgroup name="objects-16px">
+  <object name="veggie" gid="173" x="128" y="240"/>
+  <object name="veggie" gid="173" x="168" y="208"/>
+  <object name="veggie" gid="173" x="200" y="200"/>
+  <object name="veggie" gid="173" x="296" y="216" rotation="1.33222"/>
+  <object name="veggie" gid="173" x="360" y="216"/>
+  <object name="veggie" gid="173" x="232" y="216"/>
+ </objectgroup>
+ <objectgroup name="treetop_big"/>
+</map>

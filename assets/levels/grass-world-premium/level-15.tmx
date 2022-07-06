@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="40" height="14" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="hints" value="spikes,hidden_veggies"/>
+  <property name="time_to_beat" value="17.50"/>
+ </properties>
+ <tileset firstgid="1" name="grass_level" tilewidth="33" tileheight="33" spacing="1" margin="1">
+  <image source="../../sprites/tilesets/34tile.png" width="544" height="306"/>
+ </tileset>
+ <tileset firstgid="145" name="treetops_big_96" tilewidth="96" tileheight="64">
+  <image source="../../sprites/objects/scenery/treetops_big_96.png" width="192" height="64"/>
+ </tileset>
+ <tileset firstgid="147" name="object_tilemap_16" tilewidth="16" tileheight="16">
+  <image source="../../sprites/tilesets/object_tilemap_16.png" width="64" height="48"/>
+ </tileset>
+ <tileset firstgid="159" name="object_tilemap_32" tilewidth="32" tileheight="32">
+  <image source="../../sprites/tilesets/object_tilemap_32.png" width="160" height="160"/>
+  <tile id="0">
+   <properties>
+    <property name="item_no" value="5"/>
+    <property name="type" value="costume_head"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="spawn" value="spawn"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="goal" value="goal"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="name" value="pig"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="direction" value="left"/>
+    <property name="name" value="walking_enemy"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="background" width="40" height="14">
+  <properties>
+   <property name="background" value="background"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYKA/UBoAO0fBKEAH3UDcQwCTCriwiFmRoB9ZLbnuw2efFB71xLiT1u7TwiLmhURX4dBXhaaWEvd54RBHB3VEmI+OG8hwXw0ejGweOiDGfHTcS4b7iDWPVPdhM5tW7sOWJgdT+GFLk4PBfbQGhNwHAHwUb8c=
+  </data>
+ </layer>
+ <layer name="main" width="40" height="14">
+  <data encoding="base64" compression="zlib">
+   eJztlD0KAjEQhUclppRVdMtlsbAMdrYeQfEMHsSTm0AGH88kmCopHHjshvn78vsQkVenunntpF8b5M9XspPXs6BZ2vJNNB5pfJb2fMZr7WXlm+8q7fn2Xgf4ovXAN5JwPWv5Fl4rGG+gHsrGL/tszGE+XTv+D3zH2DPXB+vxfcf9MfI5Q5qD/OqbKB/7aowq8G1jT+Q2mXopPo3F/An8zI/1XGJdsBby8d5rjCvwucy8HPiZH+sJ5bPuxMdz5fuUes95XvxG8Jli0/OAvbXWEPnCGVz+oLkitkaXQr83+Gcl+A==
+  </data>
+ </layer>
+ <layer name="foreground" width="40" height="14">
+  <properties>
+   <property name="foreground" value="foreground"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo4B2IA0PHgygDQ8eBeSByoF2wAABdH9X4hAnpI9Ue6ihnp5qSNWLS1yfCnbhMwNZrhKLODa9yGIGWPTiShPY+JVIZmADuMLFAIveSiQ5Uswa7AAAE7sT1w==
+  </data>
+ </layer>
+ <layer name="hidden" width="40" height="14">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo4A2gBGImfDggQaCQCxEAA8kGHUfZYDW7iOUvrFhZjLcR6x56IAY89GxMBnuI9a8UfcNP/cp43GfIhnuUyZRPwAw/g33
+  </data>
+ </layer>
+ <layer name="hints" width="40" height="14">
+  <properties>
+   <property name="Spikes" value="You will need both:keys to reach the chest"/>
+   <property name="Veggies" value="Most veggies are hidden:in this level.:Try to find all of them!"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGwSgYWgAACMAAAQ==
+  </data>
+ </layer>
+ <objectgroup color="#e70000" name="hard-blocks">
+  <object x="0" y="416" width="1280" height="32"/>
+  <object x="0" y="0" width="32" height="416"/>
+  <object x="0" y="0" width="1248" height="32"/>
+  <object x="1248" y="0" width="32" height="416"/>
+  <object x="480" y="256" width="32" height="128"/>
+  <object x="896" y="256" width="32" height="128"/>
+  <object x="352" y="256" width="64" height="160"/>
+  <object x="256" y="288" width="32" height="96"/>
+  <object x="32" y="288" width="32" height="128"/>
+  <object x="992" y="96" width="32" height="256"/>
+  <object x="672" y="288" width="32" height="96"/>
+  <object x="736" y="288" width="32" height="96"/>
+  <object x="1024" y="96" width="224" height="32"/>
+  <object x="1056" y="384" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup color="#0055ff" name="soft-blocks">
+  <object x="512" y="256" width="384" height="32"/>
+  <object x="64" y="288" width="192" height="32"/>
+  <object x="576" y="288" width="64" height="32"/>
+  <object x="512" y="320" width="64" height="32"/>
+  <object x="608" y="352" width="64" height="32"/>
+  <object x="544" y="384" width="96" height="32"/>
+  <object x="768" y="352" width="64" height="32"/>
+  <object x="768" y="288" width="96" height="32"/>
+  <object x="832" y="320" width="64" height="32"/>
+  <object x="160" y="384" width="64" height="32"/>
+  <object x="96" y="352" width="96" height="32"/>
+  <object x="160" y="320" width="64" height="32"/>
+  <object x="1024" y="160" width="96" height="32"/>
+  <object x="1152" y="224" width="96" height="32"/>
+  <object x="1024" y="288" width="128" height="32"/>
+  <object x="1152" y="384" width="96" height="32"/>
+  <object x="1024" y="320" width="160" height="32"/>
+ </objectgroup>
+ <objectgroup name="treetop_big">
+  <object name="treetop_big" gid="145" x="352" y="160">
+   <properties>
+    <property name="position" value="front"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="objects-16px">
+  <object name="key" gid="152" x="392" y="248">
+   <properties>
+    <property name="color" value="blue"/>
+   </properties>
+  </object>
+  <object name="key" gid="152" x="1032" y="152">
+   <properties>
+    <property name="color" value="blue"/>
+   </properties>
+  </object>
+  <object name="veggie" gid="150" x="104" y="344"/>
+  <object name="veggie" gid="150" x="168" y="408"/>
+  <object name="veggie" gid="150" x="200" y="408"/>
+  <object name="veggie" gid="150" x="451" y="380"/>
+  <object name="veggie" gid="150" x="552" y="376"/>
+  <object name="veggie" gid="150" x="616" y="344"/>
+  <object name="veggie" gid="150" x="680" y="408"/>
+  <object name="veggie" gid="150" x="776" y="344"/>
+  <object name="veggie" gid="150" x="808" y="344"/>
+  <object name="veggie" gid="150" x="872" y="312"/>
+  <object name="veggie" gid="150" x="904" y="408"/>
+  <object name="veggie" gid="150" x="1064" y="152"/>
+  <object name="veggie" gid="150" x="1096" y="152"/>
+  <object name="veggie" gid="150" x="1032" y="280"/>
+  <object name="veggie" gid="150" x="1064" y="280"/>
+  <object name="veggie" gid="150" x="1096" y="280"/>
+  <object name="veggie" gid="150" x="1128" y="280"/>
+  <object name="veggie" gid="150" x="1192" y="376"/>
+  <object name="veggie" gid="150" x="1224" y="376"/>
+  <object name="veggie" gid="150" x="1032" y="408"/>
+  <object name="veggie" gid="150" x="1160" y="216"/>
+  <object name="veggie" gid="150" x="1192" y="216"/>
+  <object name="veggie" gid="150" x="1224" y="216"/>
+  <object name="spike" gid="154" x="888" y="384"/>
+ </objectgroup>
+ <objectgroup name="objects-32px">
+  <object name="treetop_birch" gid="181" x="896" y="160">
+   <properties>
+    <property name="position" value="front"/>
+   </properties>
+  </object>
+  <object name="treetop_birch" gid="181" x="608" y="192">
+   <properties>
+    <property name="position" value="front"/>
+   </properties>
+  </object>
+  <object name="treetop_birch" gid="181" x="544" y="160">
+   <properties>
+    <property name="position" value="front"/>
+   </properties>
+  </object>
+  <object name="treetop_birch" gid="181" x="320" y="352">
+   <properties>
+    <property name="position" value="front"/>
+   </properties>
+  </object>
+  <object name="treetop_birch" gid="181" x="160" y="192">
+   <properties>
+    <property name="position" value="front"/>
+   </properties>
+  </object>
+  <object name="start" gid="160" x="32" y="288">
+   <properties>
+    <property name="direction" value="right"/>
+    <property name="health" value="30"/>
+   </properties>
+  </object>
+  <object name="goal" gid="161" x="1184" y="96"/>
+  <object name="bush" gid="179" x="96" y="288">
+   <properties>
+    <property name="position" value="front"/>
+   </properties>
+  </object>
+  <object name="bush" gid="179" x="1088" y="96">
+   <properties>
+    <property name="position" value="front"/>
+   </properties>
+  </object>
+  <object name="bush" gid="179" x="448" y="416">
+   <properties>
+    <property name="position" value="front"/>
+   </properties>
+  </object>
+  <object name="door" gid="169" x="704" y="288">
+   <properties>
+    <property name="color" value="blue"/>
+   </properties>
+  </object>
+  <object name="door" gid="169" x="704" y="328">
+   <properties>
+    <property name="color" value="blue"/>
+   </properties>
+  </object>
+  <object name="chest" gid="159" x="704" y="352">
+   <properties>
+    <property name="item_no" value="7"/>
+    <property name="type" value="costume_body"/>
+   </properties>
+  </object>
+  <object name="door" gid="175" x="704" y="384">
+   <properties>
+    <property name="color" value="oneway"/>
+    <property name="direction" value="down"/>
+   </properties>
+  </object>
+  <object name="piggie" gid="162" x="864" y="256"/>
+ </objectgroup>
+</map>

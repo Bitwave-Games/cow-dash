@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+    
+<!-- Labels -->   
+    <entry key="coming_soon">即将发布</entry>
+	<entry key="buy_premium">购买完整版</entry>
+	<entry key="purchased">已购买?</entry>
+	<entry key="delete_data">您确定要删除所有
+已经保存的数据吗?</entry>
+	<entry key="wardrobe">正在载入衣柜</entry>
+	<entry key="start">点击此处开始游戏</entry>
+	<entry key="level">游戏等级</entry>
+	<entry key="cleared">通关！</entry>
+	<entry key="game_over">游戏结束</entry>
+	<entry key="unlocked">成功解锁</entry>
+	
+
+
+<!-- Level hints -->
+<entry key="jump">手指触击屏幕实现弹跳</entry>
+
+<entry key="portal">此处为通关点,
+争取迅速通关！</entry>
+
+<entry key="jump_higher">长按屏幕,
+可以跳得更高!</entry>
+
+<entry key="chest">留意隐藏的宝箱！</entry>
+
+<entry key="fake">玩家将从每个宝箱中，
+获取一件新装备</entry>
+<entry key="veggies">蔬菜为玩家，
+提供生命维持</entry>
+
+<entry key="hardblocks">当小牛撞墙时，
+则掉转方向</entry>
+
+<entry key="spikes">一旦触碰到地雷，
+则游戏结束</entry>
+
+<entry key="backtrack_chest">必要时原路返回，
+以找到宝箱</entry>
+
+<entry key="saveveggies">为了有足够体力寻找宝箱，
+有时需要提前预留一些蔬菜</entry>
+
+<entry key="smalltap">双击屏幕可以
+使得跳跃幅度变小</entry>
+
+<entry key="timelimit">在规定时间内通关
+可获得一枚奖牌!</entry>
+
+<entry key="closechest">宝箱在起点处附近</entry>
+
+<entry key="trampoline">在恰当的时机跳到猪背部，
+使跳跃实现蹦床效果</entry>
+
+<entry key="fall">避免掉落悬崖！</entry>
+
+<entry key="onewaydoors">有些门只能单向开启</entry>
+
+<entry key="lockeddoors">有些门需要对应的钥匙方可开启</entry>
+
+<entry key="hidden">尝试找出所有隐藏路径</entry>
+
+<entry key="jumpenemy">敌人不喜欢被当作踏板</entry>
+
+<entry key="trampolineenemy">敌人同样可以被当作蹦床</entry>
+
+<entry key="key_hardblocks">必要时最好保留钥匙
+以备稍后使用</entry>
+
+<entry key="treetops">此处玩家可以跳到树冠上</entry>
+
+<entry key="bluekey">蓝色钥匙只可开一扇蓝色门</entry>
+
+<entry key="blue_key_door">蓝色钥匙只有一把，
+蓝色门有两扇</entry>
+
+<entry key="wall_chest">宝箱隐藏于墙壁内</entry>
+
+<entry key="near_goal_chest">隐藏钥匙可开启隐藏路径
+在终点处附近</entry>
+
+<entry key="keys_lockeddoors">钥匙以及上锁的门
+已隐秘躲藏起来</entry>
+
+<entry key="lurking">未知物体
+潜伏在悬崖后面</entry>
+
+<entry key="secret_entrance">一个秘密入口
+直通地下
+敌人是关键</entry>
+
+<entry key="well_hidden">在这一关中
+有很多蔬菜
+已隐秘躲藏起来</entry>
+
+<entry key="outsidemap">为了寻找宝箱
+玩家需要考虑到
+地图以外的部分</entry>
+
+<entry key="right_place_chest">在合适的地方着陆
+以便获得宝物!</entry>
+
+<entry key="several_keys">玩家需要多把钥匙
+以达成目标</entry>
+
+<entry key="chest_below">玩家需要从下方开始，
+以获得宝物</entry>
+
+<entry key="yellow_keys">集齐所有黄色钥匙
+以获得宝物
+在终点处附近</entry>
+
+<entry key="light_pig">有时可以不用
+小猪作蹦床</entry>
+
+<entry key="backtrack">原路返回时可以
+探索新的路径</entry>
+
+<entry key="least_expect_hidden">忽略的地方，
+也许会有惊喜</entry>
+
+<entry key="hidden_veggies">许多蔬菜
+都隐藏在这一关中
+试着集齐所有</entry>
+
+<entry key="right_keys">所有的宝箱都需要
+对应的钥匙匹配</entry>
+
+<entry key="time_medal">一个完美的跳跃
+会节省许多时间</entry>
+
+<entry key="uncover_paths">一个隐藏路径解决了
+剩下的全部都好解决啦</entry>
+
+<entry key="yellow_key_for_later">最好保留黄色钥匙
+以备稍后使用</entry>
+
+<entry key="red_key">红色钥匙会开启
+通往宝藏之路</entry>
+
+<entry key="blue_door">蓝色大门
+守护隐藏的宝藏</entry>
+
+<entry key="yellow_for_blue">三把黄色钥匙
+换来一把蓝色钥匙</entry>
+
+<entry key="unlock_bluedoor">玩家从下方解锁蓝色大门
+可以求助于小猪蹦床</entry>
+
+<!-- Items: Back -->
+ <entry key="none">无装备</entry>
+ <entry key="cape">披肩</entry>
+ <entry key="angel_wings">天使之翼</entry>
+
+<!-- Items: Body -->
+ <entry key="astro_suit">太空服</entry>
+ <entry key="ninja_outfit">忍者服</entry>
+ <entry key="bane_jacket">杀手装</entry>
+ <entry key="tanktop_colorized">彩色无袖上衣</entry>
+ <entry key="ballet_dress">芭蕾裙</entry>
+ <entry key="cyborg">生化服</entry>
+ <entry key="black_vest">黑色马甲</entry>
+ <entry key="windup_armor">发条铠甲</entry>
+ 
+<!-- Items: Head -->
+ <entry key="astro_helmet">太空盔</entry>
+ <entry key="bandana">印花头巾</entry>
+ <entry key="bunny_ears">兔耳朵</entry>
+ <entry key="clown_wig">小丑假发</entry>
+ <entry key="cowboy_hat">牛仔帽</entry>
+ <entry key="helmet">头盔</entry>
+ <entry key="kyle_hat">凯尔帽</entry>
+ <entry key="magic_hat">魔术帽</entry>
+ <entry key="mohawk">莫霍克头</entry>
+ <entry key="newspaper">报纸</entry>
+ <entry key="ninja_headband">忍者头箍</entry>
+ <entry key="peach_hat">桃子帽</entry>
+ <entry key="pimp_hat">皮条客之帽</entry>
+ <entry key="pirate_hat">海盗帽</entry>
+ <entry key="radar">雷达</entry>
+ <entry key="rasta_hat">牙买加雷鬼帽</entry>
+ <entry key="santa_hat">圣诞老人帽</entry>
+ <entry key="stan_hat">斯坦帽</entry>
+ <entry key="feather_hat">羽毛帽</entry>
+ <entry key="christopher_hat">克里斯多夫帽</entry>
+ <entry key="donna_wig">贵妇假发</entry>
+ <entry key="elvis_wig">猫王假发</entry>
+ <entry key="nam_helmet">M1钢盔</entry>
+ <entry key="ragnar_hat">拉格纳之帽</entry>
+ <entry key="ribbon">蝴蝶结</entry>
+ <entry key="sombrero">墨西哥草帽</entry>
+ <entry key="batmask">蝙蝠侠面具</entry>
+ <entry key="hasselhof">哈塞尔霍夫假发</entry>
+ <entry key="bighorn">大喇叭</entry>
+ <entry key="windup_helmet">发条头盔</entry>
+ <entry key="windup_spring">发条弹簧</entry>
+
+<!-- Items: Leg -->
+ <entry key="wooden_leg">木制假腿</entry>
+ <entry key="clownpants">小丑裤</entry>
+ <entry key="jeans">牛仔裤</entry>
+ <entry key="brown_jeans">棕色牛仔裤</entry>
+ <entry key="red_jeans">红色牛仔裤</entry>
+ <entry key="windup_pants">发条裤子</entry>
+ 
+<!-- Items: Mask --> 
+ <entry key="clown_nose">小丑鼻子</entry>
+ <entry key="eye_patch">眼罩</entry>
+ <entry key="monocular">独眼龙</entry>
+ <entry key="nose_ring">鼻环</entry>
+ <entry key="paper_bag">纸袋</entry>
+ <entry key="sunglasses">太阳眼镜</entry>
+ <entry key="tiki_mask">提基面具</entry>
+ <entry key="censored">受审面具</entry>
+ <entry key="bane_mask">杀戮面具</entry>
+ <entry key="christopher_glasses">克里斯多夫同款眼镜</entry>
+ <entry key="ragnar_mask">拉格纳面具</entry>
+ <entry key="tony_mask">托尼面具</entry>
+ <entry key="cucumber_eyes">黄瓜之眼</entry>
+ <entry key="makeup">化妆效果</entry>
+ <entry key="nose">土豆鼻子</entry>
+ <entry key="demon_eyes">恶魔之眼</entry>
+
+</properties>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="30" height="14" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="hints" value="trampoline,lockeddoors"/>
+  <property name="time_to_beat" value="19"/>
+ </properties>
+ <tileset firstgid="1" name="grass_level" tilewidth="33" tileheight="33" spacing="1" margin="1">
+  <image source="../../sprites/tilesets/34tile.png" width="544" height="306"/>
+ </tileset>
+ <tileset firstgid="145" name="treetops_big_96" tilewidth="96" tileheight="64">
+  <image source="../../sprites/objects/scenery/treetops_big_96.png" width="192" height="64"/>
+ </tileset>
+ <tileset firstgid="147" name="object_tilemap_16" tilewidth="16" tileheight="16">
+  <image source="../../sprites/tilesets/object_tilemap_16.png" width="64" height="48"/>
+ </tileset>
+ <tileset firstgid="159" name="object_tilemap_32" tilewidth="32" tileheight="32">
+  <image source="../../sprites/tilesets/object_tilemap_32.png" width="160" height="160"/>
+  <tile id="0">
+   <properties>
+    <property name="item_no" value="5"/>
+    <property name="type" value="costume_head"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="spawn" value="spawn"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="goal" value="goal"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="name" value="pig"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="direction" value="left"/>
+    <property name="name" value="walking_enemy"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="background" width="30" height="14">
+  <properties>
+   <property name="background" value="background"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJztkjEOgzAMRTP3CByBS3AUbkDZ26DMkN6ZDLb6+xUHUhgYsPSVyHL8Euc7d8cVY0oKlHslvUn+ZOZThOwlKZI+FX0fG8yOFCTPzFpuI2vvvrPz7vedEfYqvIty5z+5OjvsqVxk8wy6yrda3JKYp2eOcAejN85zlDrOH+GqXyzuCHXMZb9vRSsr+sj6x2AwI9Xs5eaYln/QbzluDdvyUIld8lw0OCtBtkmq
+  </data>
+ </layer>
+ <layer name="main" width="30" height="14">
+  <data encoding="base64" compression="zlib">
+   eJxjZhgYIDxq74i2lxWI2YCYnc72igKxGBCL09lecSRMKWAEYiYoxmYvctgi+xdXmCOLqwNxGhJOR1InCMRCUIzNXmS7kDGuMEeWk8fjX0L2IpuD7gYYH109DCPbm8qA6ncnIv2LHH7ofsemHt1eYv3rCsTuUHPQw5VQOGPzLz57lRkQaQwfZkYyGxYO6GHBAcTmeMxQRLIXAE4SDNA=
+  </data>
+ </layer>
+ <layer name="foreground" width="30" height="14">
+  <properties>
+   <property name="foreground" value="foreground"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjAIESEPC6XS0tw0Jt9PRXhhIZUD1O71AKwOq30cyAACmXAdh
+  </data>
+ </layer>
+ <layer name="hidden" width="30" height="14">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMAoGHgAABpAAAQ==
+  </data>
+ </layer>
+ <layer name="hints" width="30" height="14">
+  <properties>
+   <property name="LockedDoors" value="Some doors will not let:you in without:a matching key"/>
+   <property name="Pigs" value="If you tap in time,:piggies turn into:trampolines!"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMAoGHgAABpAAAQ==
+  </data>
+ </layer>
+ <objectgroup color="#e70000" name="hard-blocks" width="0" height="0">
+  <object x="640" y="256" width="160" height="32"/>
+  <object x="736" y="320" width="160" height="32"/>
+  <object x="864" y="224" width="32" height="96"/>
+  <object x="864" y="352" width="32" height="96"/>
+  <object x="640" y="416" width="224" height="32"/>
+  <object x="640" y="288" width="32" height="128"/>
+  <object x="0" y="0" width="32" height="448"/>
+  <object x="32" y="416" width="320" height="32"/>
+ </objectgroup>
+ <objectgroup color="#0055ff" name="soft-blocks" width="0" height="0">
+  <object x="544" y="256" width="96" height="32"/>
+  <object x="224" y="352" width="96" height="32"/>
+  <object x="96" y="384" width="64" height="32"/>
+  <object x="416" y="416" width="128" height="32"/>
+  <object x="352" y="256" width="96" height="32"/>
+  <object x="160" y="256" width="96" height="32"/>
+  <object x="608" y="416" width="32" height="32"/>
+  <object x="256" y="160" width="96" height="32"/>
+ </objectgroup>
+ <objectgroup name="treetop_big" width="0" height="0">
+  <object name="treetop_big" gid="145" x="64" y="160"/>
+ </objectgroup>
+ <layer name="Tile Layer 6" width="30" height="14">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMAoGHgAABpAAAQ==
+  </data>
+ </layer>
+ <objectgroup name="objects-16px" width="0" height="0">
+  <object name="key" gid="151" x="120" y="376">
+   <properties>
+    <property name="color" value="yellow"/>
+   </properties>
+  </object>
+  <object name="veggie" gid="150" x="168" y="248"/>
+  <object name="veggie" gid="150" x="232" y="248"/>
+  <object name="veggie" gid="150" x="360" y="248"/>
+  <object name="veggie" gid="150" x="424" y="248"/>
+  <object name="veggie" gid="150" x="552" y="248"/>
+  <object name="veggie" gid="150" x="616" y="248"/>
+  <object name="veggie" gid="150" x="680" y="248"/>
+  <object name="veggie" gid="150" x="744" y="248"/>
+  <object name="veggie" gid="150" x="520" y="376"/>
+  <object name="veggie" gid="150" x="232" y="344"/>
+  <object name="veggie" gid="150" x="296" y="344"/>
+  <object name="veggie" gid="150" x="744" y="312"/>
+  <object name="spike" gid="154" x="880" y="224"/>
+  <object name="spike" gid="154" x="872" y="232"/>
+  <object name="spike" gid="154" x="896" y="232"/>
+  <object name="spike" gid="154" x="896" y="240"/>
+  <object name="spike" gid="154" x="888" y="248"/>
+ </objectgroup>
+ <objectgroup name="objects-32px" width="0" height="0">
+  <object name="piggie" gid="162" x="512" y="416"/>
+  <object name="door" gid="170" x="768" y="320">
+   <properties>
+    <property name="color" value="yellow"/>
+   </properties>
+  </object>
+  <object name="start" gid="160" x="768" y="256">
+   <properties>
+    <property name="direction" value="right"/>
+    <property name="health" value="100"/>
+   </properties>
+  </object>
+  <object name="goal" gid="161" x="808" y="400"/>
+  <object name="chest" gid="159" x="288" y="160">
+   <properties>
+    <property name="item_no" value="7"/>
+    <property name="type" value="costume_head"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

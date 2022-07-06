@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="30" height="10" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="hints" value="jump,portal,jump_higher,chest,veggies,hardblocks,spikes,backtrack_chest,saveveggies,timelimit,wall_chest,closechest,trampoline,fall,onewaydoors,lockeddoors,hidden,jumpenemy,trampolineenemy,key_hardblocks,treetops,bluekey,blue_key_door,near_goal_chest,keys_lockeddoors,lurking,secret_entrance,well_hidden,outsidemap,right_place_chest,several_keys,chest_below,yellow_keys,light_pig,backtrack,least_expect_hidden,hidden_veggies,right_keys,time_medal,uncover_paths,yellow_key_for_later,red_key,blue_door,yellow_for_blue,unlock_bluedoor"/>
+  <property name="time_to_beat" value="12.50"/>
+  <property name="tutorial" value="2"/>
+ </properties>
+ <tileset firstgid="1" name="grass_level" tilewidth="32" tileheight="32">
+  <image source="../sprites/tilesets/34tile.png" width="544" height="306"/>
+ </tileset>
+ <tileset firstgid="154" name="object_tilemap_32" tilewidth="32" tileheight="32">
+  <image source="../sprites/tilesets/object_tilemap_32.png" width="160" height="160"/>
+  <tile id="0">
+   <properties>
+    <property name="item_no" value="5"/>
+    <property name="type" value="costume_head"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="spawn" value="spawn"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="goal" value="goal"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="name" value="pig"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="direction" value="left"/>
+    <property name="name" value="walking_enemy"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="background" width="30" height="10">
+  <properties>
+   <property name="background" value="background"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo4D+gJPK5sVS2bzhCKRIVI8epvnUcggFAABM5wFN
+  </data>
+ </layer>
+ <layer name="main" width="30" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYGBgYARiZgb6A1MgNhsAe12B2GPUXrrYG4EmJkUHe8OAWBWImbBgaqdzRiSzlYFYGAcWobK9QnjsQrdXHU2vDh3sxRX+2MKKkFpk9QA6NAbM
+  </data>
+ </layer>
+ <layer name="foreground" width="30" height="10">
+  <properties>
+   <property name="foreground" value="foreground"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AU4APxw8DeWCLFQKAAj9xAAwADsgJG
+  </data>
+ </layer>
+ <layer name="hints" width="30" height="10">
+  <properties>
+   <property name="Hint1" value="Enemies will kill you:head on!have you tried:jumping on them?"/>
+   <property name="Hint2" value="Cows need veggies to:keep running,: just like you!"/>
+   <property name="Hint3" value="Some doors can only:be opened one way:But at least you dont:need keys!"/>
+   <property name="Hint4">Some enemies can be:used as a
+trampoline.:Just make sure to tap:the screen
+the moment:you land on them!</property>
+   <property name="Hint5" value="Watch out for spikes:they hurt alot!"/>
+   <property name="Hint6" value="Be careful not to fall:off cliffs!"/>
+   <property name="Hint7">Have you seen those:giant pigs?
+Why don't:you try jumping on: them?</property>
+   <property name="Hint8" value="Noticed that shining chrystal?: Thats where you want to be!"/>
+   <property name="Hint9" value="Most enemies remain in the:same area.:But watch out!They might:feel like jumping off!"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIKhAQAEsAAB
+  </data>
+ </layer>
+ <objectgroup color="#e70000" name="hard-blocks">
+  <object x="32" y="0" width="64" height="320"/>
+  <object x="32" y="224" height="80"/>
+  <object x="0" y="224" width="32" height="96"/>
+  <object x="96" y="192" width="192" height="128"/>
+  <object x="288" y="288" width="352" height="32"/>
+  <object x="640" y="288" width="320" height="32"/>
+  <object x="896" y="192" width="64" height="96"/>
+ </objectgroup>
+ <objectgroup color="#0055ff" name="soft-blocks"/>
+ <objectgroup name="objects-32px">
+  <object name="start" gid="155" x="192" y="192">
+   <properties>
+    <property name="direction" value="right"/>
+    <property name="health" value="100"/>
+   </properties>
+  </object>
+  <object name="goal" gid="156" x="832" y="168"/>
+  <object name="chest" gid="154" x="576" y="288">
+   <properties>
+    <property name="item_no" value="6"/>
+    <property name="type" value="costume_head"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="objects-16px"/>
+ <objectgroup name="treetop_big"/>
+</map>

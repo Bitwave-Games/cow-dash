@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+
+<properties>
+
+<comment>Bork bork bork</comment>
+
+<entry key="coming_soon" >coming soon</entry>
+
+<entry key="buy_premium" >buy premium</entry>
+
+<entry key = "medals_remaining">medals remaining</entry>
+
+<entry key="purchased" >already purchased?</entry>
+
+<entry key="delete_data" >Are you sure you want to delete all save data?</entry>
+
+<entry key="wardrobe" >loading wardrobe</entry>
+<entry key="unlocked">You Unlocked</entry>
+
+<entry key="start" >TAP TO START!</entry>
+
+<entry key="level" >level</entry>
+
+<entry key="cleared" >Cleared</entry>
+
+<entry key="game_over" >Game Over</entry>
+
+<entry key="jump" >Keep pressing the screen to jump high!</entry>
+
+<entry key="portal" >The portal is your goal. Can you reach it in time?</entry>
+
+<entry key="jump_higher" >Tap and hold the screen to jump higher!</entry>
+
+<entry key="chest" >Keep your eyes open for the hidden chest!</entry>
+
+<entry key="fake" >Each chest will give you another piece of clothing for your cow!</entry>
+
+<entry key="veggies" >Cows need veggies to keep running, just like you!</entry>
+
+<entry key="hardblocks" >Cow will turn when colliding with walls. Time your steps!</entry>
+
+<entry key="spikes" >Watch out for spikes, they hurt a lot!</entry>
+
+<entry key="backtrack_chest" >Backtracking is needed to reach the chest!</entry>
+
+<entry key="saveveggies" >Sometimes you'll have to save some veggies for the chest</entry>
+
+<entry key="smalltap" >A quick tap will make you do a small jump.</entry>
+
+<entry key="timelimit" >Beat the time limit and get a medal!</entry>
+
+<entry key="wall_chest">the chest is hidden in the wall</entry>
+
+<entry key="closechest" >The Chest is close to where you start out</entry>
+
+<entry key="trampoline" >Be careful not to fall off cliffs!</entry>
+
+<entry key="fall" >Be careful not to fall off cliffs!</entry>
+
+<entry key="onewaydoors" >Some doors can only be opened one way.</entry>
+
+<entry key="lockeddoors" >Some doors will not let you in without a matching key</entry>
+
+<entry key="hidden" >Try to find the hidden paths!</entry>
+
+<entry key="jumpenemy" >Enemies don't like being jumped on!</entry>
+
+<entry key="trampolineenemy" >Enemies can also be used as trampolines!</entry>
+
+<entry key="key_hardblocks" >Sometimes it's better to save the key for later use!</entry>
+
+<entry key="treetops" >The treetops are a bit more solid in this level!</entry>
+
+<entry key="bluekey" >The blue key will only open one of the blue doors</entry>
+
+<entry key="blue_key_door" >there is only one blue key but two blue doors</entry>
+
+<entry key="near_goal_chest" >There is a hidden key that unlocks a hidden path near the goal</entry>
+
+<entry key="keys_lockeddoors" >Keys and locked doors are often well hidden!</entry>
+
+<entry key="lurking" >Something is lurking behind the cliffs!</entry>
+
+<entry key="secret_entrance" >There is a secret entrance that leads under the ground! The enemy is the key</entry>
+
+<entry key="well_hidden" >there are some very well hidden veggies in this level!</entry>
+
+<entry key="outsidemap" >you will have to think outside of the map in order to find te chest</entry>
+
+<entry key="right_place_chest" >fall down at the right places to reach the chest!</entry>
+
+<entry key="several_keys" >you will need several keys to reach the goal</entry>
+
+<entry key="chest_below" >you must reach the chest from below</entry>
+
+<entry key="yellow_keys" >Find all yellow keys to get the chest near the goal</entry>
+
+<entry key="light_pig" >sometimes it's better to not use the pigs as trampolines!</entry>
+
+<entry key="backtrack" >When going back the way you started you might discover new paths</entry>
+
+<entry key="least_expect_hidden" >Some hidden paths are where you least expect!</entry>
+
+<entry key="hidden_veggies" >Most veggies are hidden in this level. Try to find all of them!</entry>
+
+<entry key="right_keys" >To get to the chest you must find all the right keys</entry>
+
+<entry key="time_medal" >To get the time medal you will have to perform a perfect jump</entry>
+
+<entry key="uncover_paths" >when running through a hidden path, you will uncover all hidden paths</entry>
+
+<entry key="yellow_key_for_later" >You will want to save the yellow key for later</entry>
+
+<entry key="red_key" >The red key will unlock a path to the hidden chest!</entry>
+
+<entry key="blue_door" >the blue door that holds the chest is hidden</entry>
+
+<entry key="yellow_for_blue" >three yellow keys are needed to get the blue key</entry>
+
+<entry key="unlock_bluedoor" >you will need to unlock the blue door from below, using a pig</entry>
+
+<!-- Items: Back -->
+ <entry key="none">NONE</entry>
+ <entry key="cape">CAPE</entry>
+ <entry key="angel_wings">ANGEL WINGS</entry>
+ <entry key="windup_spring">WINDUP SPRING</entry>
+ <entry key="turtle_shell">TURTLE SHELL</entry>
+ <entry key="swimring">SWIMRING</entry>
+ <entry key="propeller">PROPELLER</entry>
+ <entry key="hangglider">HANGGLIDER</entry>
+ <entry key="boombox">BOOMBOX</entry>
+ <entry key="saddle">SADDLE</entry>
+
+<!-- Items: Body -->
+ <entry key="astro_suit">ASTRO SUIT</entry>
+ <entry key="ninja_outfit">NINJA OUTFIT</entry>
+ <entry key="bane_jacket">BANE JACKET</entry>
+ <entry key="tanktop_colorized">TANKTOP COLORIZED</entry>
+ <entry key="ballet_dress">BALLET DRESS</entry>
+ <entry key="cyborg">CYBORG</entry>
+ <entry key="black_vest">BLACK VEST</entry>
+ <entry key="windup_armor">WINDUP ARMOR</entry>
+ 
+<!-- Items: Head -->
+ <entry key="astro_helmet">ASTRO HELMET</entry>
+ <entry key="bandana">BANDANA</entry>
+ <entry key="bunny_ears">BUNNY EARS</entry>
+ <entry key="clown_wig">CLOWN WIG</entry>
+ <entry key="cowboy_hat">COWBOY HAT</entry>
+ <entry key="helmet">HELMET</entry>
+ <entry key="kyle_hat">KYLE HAT</entry>
+ <entry key="magic_hat">MAGIC HAT</entry>
+ <entry key="mohawk">MOHAWK</entry>
+ <entry key="newspaper">NEWSPAPER</entry>
+ <entry key="ninja_headband">NINJA HEADBAND</entry>
+ <entry key="peach_hat">PEACH HAT</entry>
+ <entry key="pimp_hat">PIMP HAT</entry>
+ <entry key="pirate_hat">PIRATE HAT</entry>
+ <entry key="radar">RADAR</entry>
+ <entry key="rasta_hat">RASTA HAT</entry>
+ <entry key="santa_hat">SANTA HAT</entry>
+ <entry key="stan_hat">STAN HAT</entry>
+ <entry key="feather_hat">FEATHER HAT</entry>
+ <entry key="christopher_hat">CHRISTOPHER HAT</entry>
+ <entry key="donna_wig">DONNA WIG</entry>
+ <entry key="elvis_wig">ELVIS WIG</entry>
+ <entry key="nam_helmet">NAM HELMET</entry>
+ <entry key="ragnar_hat">RAGNAR HAT</entry>
+ <entry key="ribbon">RIBBON</entry>
+ <entry key="sombrero">SOMBRERO</entry>
+ <entry key="batmask">BATMASK</entry>
+ <entry key="hasselhof">HASSELHOF</entry>
+ <entry key="bighorn">BIGHORN</entry>
+ <entry key="windup_helmet">WINDUP HELMET</entry>
+
+<!-- Items: Leg -->
+ <entry key="wooden_leg">WOODEN LEG</entry>
+ <entry key="clownpants">CLOWN PANTS</entry>
+ <entry key="jeans">JEANS</entry>
+ <entry key="brown_jeans">BROWN JEANS</entry>
+ <entry key="red_jeans">RED JEANS</entry>
+ <entry key="windup_pants">WINDUP PANTS</entry>
+ 
+<!-- Items: Mask --> 
+ <entry key="clown_nose">CLOWN NOSE</entry>
+ <entry key="eye_patch">EYE PATCH</entry>
+ <entry key="monocular">MONOCULAR</entry>
+ <entry key="nose_ring">NOSE RING</entry>
+ <entry key="paper_bag">PAPERBAG</entry>
+ <entry key="sunglasses">SUNGLASSES</entry>
+ <entry key="tiki_mask">TIKI MASK</entry>
+ <entry key="censored">CENSORED</entry>
+ <entry key="bane_mask">BANE MASK</entry>
+ <entry key="christopher_glasses">CHRISTOPHER GLASSES</entry>
+ <entry key="ragnar_mask">RAGNAR MASK</entry>
+ <entry key="tony_mask">TONY MASK</entry>
+ <entry key="cucumber_eyes">CUCUMBER EYES</entry>
+ <entry key="makeup">MAKEUP</entry>
+ <entry key="potato_nose">POTATO NOSE</entry>
+ <entry key="demon_eyes">DEMON EYES</entry>
+
+</properties>

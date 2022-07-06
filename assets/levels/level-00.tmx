@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="50" height="15" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="hints" value=""/>
+  <property name="time_to_beat" value="13"/>
+ </properties>
+ <tileset firstgid="1" name="grass_level" tilewidth="33" tileheight="33" spacing="1" margin="1">
+  <image source="../sprites/tilesets/34tile.png" width="544" height="306"/>
+ </tileset>
+ <tileset firstgid="145" name="treetops_big_96" tilewidth="96" tileheight="64">
+  <image source="../sprites/objects/scenery/treetops_big_96.png" width="192" height="64"/>
+ </tileset>
+ <tileset firstgid="147" name="object_tilemap_16" tilewidth="16" tileheight="16">
+  <image source="../sprites/tilesets/object_tilemap_16.png" width="64" height="48"/>
+ </tileset>
+ <tileset firstgid="159" name="object_tilemap_32" tilewidth="32" tileheight="32">
+  <image source="../sprites/tilesets/object_tilemap_32.png" width="160" height="160"/>
+  <tile id="0">
+   <properties>
+    <property name="item_no" value="5"/>
+    <property name="type" value="costume_head"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="spawn" value="spawn"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="goal" value="goal"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="name" value="pig"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="direction" value="left"/>
+    <property name="name" value="walking_enemy"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="background" width="50" height="15">
+  <properties>
+   <property name="background" value="background"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2Bkg6qBdgCZwIMINYPNb1YD7QAooNQdXgyQ8I8cYHeQop+Y9EIqgPnfi0JzBku6QAfI8UtM+KH7A8anVT6kdrhZodG0sgeXveQCUPgixw8oPUYyINKlB1TNYPcHve3BZc5Q8AcofmH5Clf5MxT8QY75AGJ2DH4=
+  </data>
+ </layer>
+ <layer name="main" width="50" height="15">
+  <data encoding="base64" compression="zlib">
+   eJztVNEOQDAM3AvzLGH//6dINGnOjW4dInFJM6aud50K4ceP5zGq+DLu8FHLObxQswUn6k6GHG/NElg5UTfzwfY8NUuAnN0a/R5R5X3Nx6ZlWmMGXSU+pBeR5LCaLYCc2kOtD9aHDTI/Xh8DrIxT9IsW1Ji713spHPugn3t9JFgZZwpcR+159IboDDnRyCXR4rti54nv6GtdE+ufzeqVPu+c5+Yjx4c1c15Kfeg4O3P8HwnXAhKPDdI=
+  </data>
+ </layer>
+ <layer name="foreground" width="50" height="15">
+  <properties>
+   <property name="foreground" value="foreground"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUDDZgNUjsptQduPTTw39DzR/E2DHqD+LtoBSM+oO6dlAKRv1BXTsoBaP+oK4dpAAA2I0LGw==
+  </data>
+ </layer>
+ <layer name="hidden" width="50" height="15">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20ND6AAAIB3Awu4AAE=
+  </data>
+ </layer>
+ <layer name="hints" width="50" height="15">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20ND6AAAIB3Awu4AAE=
+  </data>
+ </layer>
+ <objectgroup color="#e70000" name="hard-blocks">
+  <object x="256" y="96" width="80" height="288"/>
+  <object x="936" y="128" width="104" height="256"/>
+  <object x="-144" y="384" width="1376" height="32"/>
+ </objectgroup>
+ <objectgroup color="#0055ff" name="soft-blocks">
+  <object x="0" y="288" width="96" height="32"/>
+  <object x="192" y="320" width="32" height="32"/>
+  <object x="288" y="320" width="32" height="32"/>
+  <object x="8" y="448" width="1376" height="32"/>
+  <object x="1056" y="224" width="128" height="32"/>
+  <object x="1184" y="448" width="256" height="32"/>
+  <object x="1248" y="160" width="32" height="32"/>
+  <object x="1376" y="128" width="32" height="32"/>
+  <object x="1536" y="160" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="treetop_big"/>
+ <objectgroup name="objects-16px">
+  <object name="spike" gid="154" x="96" y="312"/>
+  <object name="spike" gid="154" x="136" y="320"/>
+  <object name="spike" gid="154" x="128" y="304"/>
+  <object name="spike" gid="154" x="144" y="312"/>
+  <object name="spike" gid="154" x="240" y="344"/>
+  <object name="spike" gid="154" x="264" y="344"/>
+  <object name="spike" gid="154" x="248" y="336"/>
+  <object name="spike" gid="154" x="976" y="272"/>
+  <object name="spike" gid="154" x="992" y="264"/>
+  <object name="spike" gid="154" x="1040" y="256"/>
+  <object name="spike" gid="154" x="1016" y="248"/>
+  <object name="spike" gid="154" x="1176" y="248"/>
+  <object name="spike" gid="154" x="1240" y="208"/>
+  <object name="spike" gid="154" x="1232" y="232"/>
+  <object name="spike" gid="154" x="1216" y="248"/>
+  <object name="spike" gid="154" x="1288" y="176"/>
+  <object name="spike" gid="154" x="1312" y="168"/>
+  <object name="spike" gid="154" x="1336" y="168"/>
+  <object name="spike" gid="154" x="1320" y="184"/>
+  <object name="spike" gid="154" x="1304" y="192"/>
+  <object name="spike" gid="154" x="1304" y="176"/>
+  <object name="spike" gid="154" x="1352" y="152"/>
+  <object name="spike" gid="154" x="1296" y="192"/>
+  <object name="spike" gid="154" x="1344" y="176"/>
+  <object name="veggie" gid="150" x="1312" y="128"/>
+  <object name="veggie" gid="150" x="1184" y="152"/>
+  <object name="veggie" gid="150" x="976" y="208"/>
+  <object name="veggie" gid="150" x="152" y="264"/>
+  <object name="veggie" gid="150" x="248" y="304"/>
+  <object name="veggie" gid="150" x="456" y="376"/>
+  <object name="veggie" gid="150" x="616" y="368"/>
+  <object name="spike" gid="154" x="48" y="352"/>
+  <object name="spike" gid="154" x="32" y="392"/>
+ </objectgroup>
+ <objectgroup name="objects-32px">
+  <object name="treetop_birch" gid="181" x="64" y="224">
+   <properties>
+    <property name="position" value="front"/>
+   </properties>
+  </object>
+  <object name="treetop_birch" gid="181" x="160" y="224">
+   <properties>
+    <property name="position" value="front"/>
+   </properties>
+  </object>
+  <object name="treetop_birch" gid="181" x="352" y="160">
+   <properties>
+    <property name="position" value="front"/>
+   </properties>
+  </object>
+  <object name="treetop_birch" gid="181" x="448" y="160">
+   <properties>
+    <property name="position" value="front"/>
+   </properties>
+  </object>
+  <object name="treetop_birch" gid="181" x="512" y="320">
+   <properties>
+    <property name="position" value="front"/>
+   </properties>
+  </object>
+  <object name="treetop_birch" gid="181" x="576" y="192">
+   <properties>
+    <property name="position" value="front"/>
+   </properties>
+  </object>
+  <object name="treetop_birch" gid="181" x="704" y="288">
+   <properties>
+    <property name="position" value="front"/>
+   </properties>
+  </object>
+  <object name="treetop_birch" gid="181" x="960" y="128">
+   <properties>
+    <property name="position" value="front"/>
+   </properties>
+  </object>
+  <object name="treetop_birch" gid="181" x="1088" y="160">
+   <properties>
+    <property name="position" value="front"/>
+   </properties>
+  </object>
+  <object name="treetop_birch" gid="181" x="1152" y="160">
+   <properties>
+    <property name="position" value="front"/>
+   </properties>
+  </object>
+  <object name="treetop_birch" gid="181" x="1280" y="384">
+   <properties>
+    <property name="position" value="front"/>
+   </properties>
+  </object>
+  <object name="treetop_birch" gid="181" x="1472" y="288">
+   <properties>
+    <property name="position" value="front"/>
+   </properties>
+  </object>
+  <object name="start" gid="160" x="0" y="288">
+   <properties>
+    <property name="direction" value="right"/>
+    <property name="health" value="100"/>
+   </properties>
+  </object>
+  <object name="goal" gid="161" x="1536" y="160"/>
+  <object name="chest" gid="159" x="1344" y="448">
+   <properties>
+    <property name="item_no" value="9"/>
+    <property name="type" value="costume_mask"/>
+   </properties>
+  </object>
+  <object name="piggie" gid="162" x="1408" y="448"/>
+  <object name="jumping_enemy" gid="172" x="544" y="384">
+   <properties>
+    <property name="direction" value="left"/>
+   </properties>
+  </object>
+  <object name="jumping_enemy" gid="172" x="512" y="280">
+   <properties>
+    <property name="direction" value="left"/>
+   </properties>
+  </object>
+  <object name="jumping_enemy" gid="172" x="640" y="248">
+   <properties>
+    <property name="direction" value="left"/>
+   </properties>
+  </object>
+  <object name="jumping_enemy" gid="172" x="736" y="232">
+   <properties>
+    <property name="direction" value="left"/>
+   </properties>
+  </object>
+  <object name="jumping_enemy" gid="172" x="800" y="256">
+   <properties>
+    <property name="direction" value="left"/>
+   </properties>
+  </object>
+  <object name="jumping_enemy" gid="172" x="816" y="336">
+   <properties>
+    <property name="direction" value="left"/>
+   </properties>
+  </object>
+  <object name="jumping_enemy" gid="172" x="712" y="312">
+   <properties>
+    <property name="direction" value="left"/>
+   </properties>
+  </object>
+  <object name="jumping_enemy" gid="172" x="624" y="296">
+   <properties>
+    <property name="direction" value="left"/>
+   </properties>
+  </object>
+  <object name="jumping_enemy" gid="172" x="608" y="288">
+   <properties>
+    <property name="direction" value="left"/>
+   </properties>
+  </object>
+  <object name="jumping_enemy" gid="172" x="528" y="232">
+   <properties>
+    <property name="direction" value="left"/>
+   </properties>
+  </object>
+  <object name="jumping_enemy" gid="172" x="496" y="232">
+   <properties>
+    <property name="direction" value="left"/>
+   </properties>
+  </object>
+  <object name="jumping_enemy" gid="172" x="472" y="248">
+   <properties>
+    <property name="direction" value="left"/>
+   </properties>
+  </object>
+  <object name="jumping_enemy" gid="172" x="432" y="288">
+   <properties>
+    <property name="direction" value="left"/>
+   </properties>
+  </object>
+  <object name="jumping_enemy" gid="172" x="424" y="304">
+   <properties>
+    <property name="direction" value="left"/>
+   </properties>
+  </object>
+  <object name="jumping_enemy" gid="172" x="440" y="328">
+   <properties>
+    <property name="direction" value="left"/>
+   </properties>
+  </object>
+  <object name="jumping_enemy" gid="172" x="480" y="336">
+   <properties>
+    <property name="direction" value="left"/>
+   </properties>
+  </object>
+  <object name="jumping_enemy" gid="172" x="560" y="320">
+   <properties>
+    <property name="direction" value="left"/>
+   </properties>
+  </object>
+  <object name="jumping_enemy" gid="172" x="608" y="320">
+   <properties>
+    <property name="direction" value="left"/>
+   </properties>
+  </object>
+  <object name="jumping_enemy" gid="172" x="648" y="360">
+   <properties>
+    <property name="direction" value="left"/>
+   </properties>
+  </object>
+  <object name="jumping_enemy" gid="172" x="672" y="360">
+   <properties>
+    <property name="direction" value="left"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

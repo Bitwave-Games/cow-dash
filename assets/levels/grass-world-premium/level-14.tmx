@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="11" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="43">
+ <properties>
+  <property name="hints" value="least_expect_hidden,trampolineenemy"/>
+  <property name="time_to_beat" value="6"/>
+ </properties>
+ <tileset firstgid="1" name="grass_level" tilewidth="33" tileheight="33" spacing="1" margin="1" tilecount="144" columns="16">
+  <image source="../../sprites/tilesets/34tile.png" width="544" height="306"/>
+ </tileset>
+ <tileset firstgid="145" name="treetops_big_96" tilewidth="96" tileheight="64" tilecount="2" columns="2">
+  <image source="../../sprites/objects/scenery/treetops_big_96.png" width="192" height="64"/>
+ </tileset>
+ <tileset firstgid="147" name="object_tilemap_16" tilewidth="16" tileheight="16" tilecount="12" columns="4">
+  <image source="../../sprites/tilesets/object_tilemap_16.png" width="64" height="48"/>
+ </tileset>
+ <tileset firstgid="159" name="object_tilemap_32" tilewidth="32" tileheight="32" tilecount="25" columns="5">
+  <image source="../../sprites/tilesets/object_tilemap_32.png" width="160" height="160"/>
+  <tile id="0">
+   <properties>
+    <property name="item_no" value="5"/>
+    <property name="type" value="costume_head"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="spawn" value="spawn"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="goal" value="goal"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="name" value="pig"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="direction" value="left"/>
+    <property name="name" value="walking_enemy"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer id="1" name="background" width="30" height="11">
+  <properties>
+   <property name="background" value="background"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBi6QJLGejnpYMcoGAWjYPADAMSTAG4=
+  </data>
+ </layer>
+ <layer id="2" name="main" width="30" height="11">
+  <data encoding="base64" compression="zlib">
+   eJy9U0EOgzAMC0MduzLEeMDexngAN25sH18qGhFFTukBEclqqlh2kqo1XR8VoztZcyngtAe+OY3AuDtoCn1zGlonqLxnvBiDk3u9NcpX872TTG79HuaOOJJrX8uxd+SLeKhPy4m+b8aHMWX2jfYcVC1qjUlHtNCehRt9Z9qjtH+0QxTe/mTeG6Om7Y28nZPJdb1KGqKTm0PmfSZ0oF4678r4Jvycee37at+j/3QG5B/9AX8eEww=
+  </data>
+ </layer>
+ <layer id="3" name="foreground" width="30" height="11">
+  <properties>
+   <property name="foreground" value="foreground"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo4A2wIPK5lDLPFJB+gDZ2z5A9lITSDIQH2+SaHwPPHL0BgBk+AKi
+  </data>
+ </layer>
+ <layer id="4" name="hidden" width="30" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUoANGIGaCYnoCQSAWAmITOturCLW3mM72DhUAAE8PAQM=
+  </data>
+ </layer>
+ <layer id="5" name="hints" width="30" height="11">
+  <properties>
+   <property name="Hint6" value="Enemies can be used as a:trampoline. Just make sure:to tap in time!"/>
+   <property name="hidden" value="Some hidden paths:are where you:least expect!"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRgA8AAAUoAAE=
+  </data>
+ </layer>
+ <objectgroup color="#e70000" id="6" name="hard-blocks">
+  <object id="1" x="928" y="-80" width="32" height="432"/>
+  <object id="2" x="0" y="-88" width="32" height="440"/>
+  <object id="3" x="544" y="256" width="128" height="64"/>
+  <object id="4" x="32" y="256" width="64" height="96"/>
+  <object id="5" x="32" y="192" width="64" height="32"/>
+  <object id="6" x="576" y="192" width="128" height="32"/>
+ </objectgroup>
+ <objectgroup color="#0055ff" id="7" name="soft-blocks">
+  <object id="7" x="96" y="320" width="832" height="32"/>
+  <object id="8" x="352" y="192" width="64" height="32"/>
+  <object id="9" x="448" y="192" width="96" height="32"/>
+  <object id="10" x="736" y="192" width="160" height="32"/>
+  <object id="11" x="736" y="96" width="192" height="32"/>
+  <object id="12" x="448" y="64" width="256" height="32"/>
+  <object id="13" x="352" y="96" width="64" height="32"/>
+  <object id="14" x="32" y="96" width="288" height="32"/>
+  <object id="15" x="576" y="128" width="32" height="32"/>
+  <object id="16" x="96" y="192" width="224" height="32"/>
+  <object id="17" x="96" y="256" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup id="8" name="treetop_big"/>
+ <objectgroup id="9" name="objects-16px">
+  <object id="18" name="veggie" gid="150" x="200" y="88" width="16" height="16"/>
+  <object id="19" name="veggie" gid="150" x="232" y="88" width="16" height="16"/>
+  <object id="20" name="veggie" gid="150" x="264" y="88" width="16" height="16"/>
+  <object id="21" name="veggie" gid="150" x="232" y="184" width="16" height="16"/>
+  <object id="22" name="veggie" gid="150" x="520" y="184" width="16" height="16"/>
+  <object id="23" name="veggie" gid="150" x="488" y="56" width="16" height="16"/>
+  <object id="24" name="veggie" gid="150" x="520" y="56" width="16" height="16"/>
+  <object id="25" name="veggie" gid="150" x="552" y="56" width="16" height="16"/>
+  <object id="26" name="veggie" gid="150" x="584" y="56" width="16" height="16"/>
+  <object id="27" name="veggie" gid="150" x="584" y="120" width="16" height="16"/>
+  <object id="28" name="veggie" gid="150" x="744" y="88" width="16" height="16"/>
+  <object id="29" name="veggie" gid="150" x="776" y="88" width="16" height="16"/>
+  <object id="30" name="veggie" gid="150" x="808" y="88" width="16" height="16"/>
+  <object id="31" name="key" gid="152" x="648" y="248" width="16" height="16">
+   <properties>
+    <property name="color" value="blue"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="10" name="objects-32px">
+  <object id="32" name="chest" gid="159" x="32" y="256" width="32" height="32">
+   <properties>
+    <property name="item_no" value="8"/>
+    <property name="type" value="costume_mask"/>
+   </properties>
+  </object>
+  <object id="33" name="door" gid="169" x="64" y="256" width="32" height="32">
+   <properties>
+    <property name="color" value="blue"/>
+   </properties>
+  </object>
+  <object id="34" name="jumping_enemy" gid="172" x="192" y="32" width="32" height="32">
+   <properties>
+    <property name="direction" value="left"/>
+   </properties>
+  </object>
+  <object id="35" name="jumping_enemy" gid="172" x="736" y="288" width="32" height="32"/>
+  <object id="36" name="jumping_enemy" gid="172" x="896" y="64" width="32" height="32"/>
+  <object id="37" name="walking_enemy" gid="163" x="224" y="320" width="32" height="32">
+   <properties>
+    <property name="bound_to_platform" value="true"/>
+    <property name="direction" value="left"/>
+   </properties>
+  </object>
+  <object id="38" name="walking_enemy" gid="163" x="464" y="320" width="32" height="32">
+   <properties>
+    <property name="bound_to_platform" value="true"/>
+   </properties>
+  </object>
+  <object id="39" name="walking_enemy" gid="163" x="384" y="192" width="32" height="32">
+   <properties>
+    <property name="bound_to_platform" value="true"/>
+    <property name="direction" value="left"/>
+   </properties>
+  </object>
+  <object id="40" name="goal" gid="161" x="128" y="96" width="32" height="32"/>
+  <object id="41" name="start" gid="160" x="448" y="192" width="32" height="32">
+   <properties>
+    <property name="direction" value="right"/>
+    <property name="health" value="100"/>
+   </properties>
+  </object>
+  <object id="42" name="door" gid="176" x="576" y="256" width="32" height="32">
+   <properties>
+    <property name="color" value="oneway"/>
+    <property name="direction" value="left"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

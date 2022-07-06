@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+
+<properties>
+
+<comment>Bork bork bork</comment>
+
+<entry key="coming_soon" >próximamente</entry>
+
+<entry key="buy_premium" >versión premium</entry>
+
+<entry key="purchased" >¿ya lo has comprado?</entry>
+
+<entry key="delete_data" >¿Está seguro que desea borrar los datos guardados?</entry>
+
+<entry key="wardrobe" >cargado guardaropa</entry>
+
+<entry key="unlocked">Haz Desbloqueado</entry>
+
+<entry key="start" >¡Pulsa para jugar!</entry>
+
+<entry key="level" >nivel</entry>
+
+<entry key="cleared" >Completado</entry>
+
+<entry key="game_over" >   Juego    
+Terminado</entry>
+
+<entry key="jump" >¡Siga pulsando la pantalla para saltar alto!</entry>
+
+<entry key="portal" >Su meta es el portal ¿Puedes llegar a tiempo?</entry>
+
+<entry key="jump_higher" >¡Manten pressionada la pantalla para saltar más alto!</entry>
+
+<entry key="chest" >¡Esté alerta para el tesoro escondido!</entry>
+
+<entry key="fake" >¡Cada cofre te dara otra pieza de ropa para tu vaca!</entry>
+
+<entry key="veggies" >¡Las vacas necesitan vegetales para sequir corriendo, comor tú!</entry>
+
+<entry key="hardblocks" >Al chocar con los muros, la vaca se dará la vuelta</entry>
+
+<entry key="spikes" >¡Cuidado con los enemigos con espinas, duelen mucho!</entry>
+
+<entry key="backtrack_chest" >¡Volver hacia atrás es necessario para llegar al cofre!</entry>
+
+<entry key="saveveggies" >A veces tendras que guardar vegetales para llegar al cofre</entry>
+
+<entry key="smalltap" >Pulsar rápidamente te hará que des un salto pequeño</entry>
+
+<entry key="timelimit" >¡Vence el límite de tiempo y obtén una medalla!</entry>
+
+<entry key="wall_chest">El cofre está escondido en la pared</entry>
+
+<entry key="closechest" >El cofre está cerca del comienzo</entry>
+
+<entry key="trampoline" >¡Si pulsas a tiempo, los cerditos se convierten en trampolines!</entry>
+
+<entry key="fall" >¡Ten cuidado de no caérte al precipicio!</entry>
+
+<entry key="onewaydoors" >Algunas puertas sólo pueden abrirse de un lado</entry>
+
+<entry key="lockeddoors" >Algunas puertas no te dejaran pasar sin la llave</entry>
+
+<entry key="hidden" >¡Intenta encontrar los caminos escondidos!</entry>
+
+<entry key="jumpenemy" >¡A los enemigos no les gusta que le brinquen encima!</entry>
+
+<entry key="trampolineenemy" >¡Los enemigos también pueden ser usados como trampolines!</entry>
+
+<entry key="key_hardblocks" >¡A veces es mejor guardar la llave para usarla después!</entry>
+
+<entry key="treetops" >¡Las copas de los árboles son un poco mas sólidos en este nivel!</entry>
+
+<entry key="bluekey" >La llave azul solo abre una de las puertas azules</entry>
+
+<entry key="blue_key_door" >Solo hay una llave azul pero hay dos puertas azules</entry>
+
+<entry key="near_goal_chest" >Hay una llave escondida que desbloquea un camindo escondido cerca de la meta</entry>
+
+<entry key="keys_lockeddoors" >¡Usualmente las llaves y puertas están bien escondidas!</entry>
+
+<entry key="lurking" >¡Algo esta al acecho detrás de los precipicios!</entry>
+
+<entry key="secret_entrance" >Hay una entrada secreta que lleva bajo tierra! El enemigo es la clave</entry>
+
+<entry key="well_hidden" >¡En este nivel hay unos vegetales bien escondidos!</entry>
+
+<entry key="outsidemap" >¡Tendrás que pensar fuera del mapa para encontrar el cofre!</entry>
+
+<entry key="right_place_chest" >¡Cae en los lugares correctos para llegar al cofre!</entry>
+
+<entry key="several_keys" >Necesitarás varias llaves para llegar a la meta</entry>
+
+<entry key="chest_below" >Debes alcanzar el cofre desde abajo</entry>
+
+<entry key="yellow_keys" >Encuentra todas las llaves amarillas para llegar al cofre junto a la meta</entry>
+
+<entry key="light_pig" >¡A veces es mejor no usar los cerdos como trampolines!</entry>
+
+<entry key="backtrack" >Cuando regresas por donde empezaste, tal vez descubrirás nuevos caminos</entry>
+
+<entry key="least_expect_hidden" >¡Algunos caminos escondidos estan donde menos lo esperas!</entry>
+
+<entry key="hidden_veggies" >¡La mayoría de los vegetales en este nivel están escondidos!</entry>
+
+<entry key="right_keys" >Para llegar al cofre tienes que encontrar todas las llaves correctas</entry>
+
+<entry key="time_medal" >Para conseguir la medalla de tiempo, tendrás que ejecutar un salto perfecto</entry>
+
+<entry key="uncover_paths" >Al correr por un camino escondido descubrirás todos los caminos escondidos</entry>
+
+<entry key="yellow_key_for_later" >Tu querrás guardar la llave amarilla para después</entry>
+
+<entry key="red_key" >¡La llave roja desbloqueará un camino escondido al cofre!</entry>
+
+<entry key="blue_door" >La puerta azul que tiene el cofre está escondida</entry>
+
+<entry key="yellow_for_blue" >Necesitas tres llaves amarillas para conseguir la llave azul</entry>
+
+<entry key="unlock_bluedoor" >Necesitarás desbloquear la puerta azul desde abajo, usando un cerdo</entry>
+
+<!-- Items: Back -->
+ <entry key="none">NONE</entry>
+ <entry key="cape">CAPA</entry>
+ <entry key="angel_wings">ALAS DE ÁNGEL</entry>
+
+<!-- Items: Body -->
+ <entry key="astro_suit">TRAJE ESPACIAL</entry>
+ <entry key="ninja_outfit">TRAJE DE NINJA</entry>
+ <entry key="bane_jacket">CHAMARRA DE BANE</entry>
+ <entry key="tanktop_colorized">CAMISETA COLOREADA</entry>
+ <entry key="ballet_dress">VESTIDO DE BALLET</entry>
+ <entry key="cyborg">CYBORG</entry>
+ <entry key="black_vest">CHALECO NEGRO</entry>
+ <entry key="windup_armor">ARMADURA WINDUP</entry>
+ 
+<!-- Items: Head -->
+ <entry key="astro_helmet">CASCO ESPACIAL</entry>
+ <entry key="bandana">PAÑUELO</entry>
+ <entry key="bunny_ears">OREJAS DE CONEJO</entry>
+ <entry key="clown_wig">PELUCA DE PAYASO</entry>
+ <entry key="cowboy_hat">SOMBRERO DE VAQUERO</entry>
+ <entry key="helmet">CALSO</entry>
+ <entry key="kyle_hat">GORRO DE KYLE</entry>
+ <entry key="magic_hat">GORRO MÁGICO</entry>
+ <entry key="mohawk">MOHAWK</entry>
+ <entry key="newspaper">DIARIO</entry>
+ <entry key="ninja_headband">CINTA DE NINJA</entry>
+ <entry key="peach_hat">GORRO DE DURAZNO</entry>
+ <entry key="pimp_hat">GORRO DE PADROTE</entry>
+ <entry key="pirate_hat">GORRO DE PIRATA</entry>
+ <entry key="radar">RADAR</entry>
+ <entry key="rasta_hat">GORRO DE RASTA</entry>
+ <entry key="santa_hat">GORRO DE SANTA</entry>
+ <entry key="stan_hat">GORRO DE STAN</entry>
+ <entry key="feather_hat">SOMBRERO DE PLUMAS</entry>
+ <entry key="christopher_hat">GORRO DE CHRISTOPHER</entry>
+ <entry key="donna_wig">PELUCA DE DONNA</entry>
+ <entry key="elvis_wig">PELUCA DE ELVIS</entry>
+ <entry key="nam_helmet">CASCO VIETNAMITA</entry>
+ <entry key="ragnar_hat">GORRO DE RAGNAR</entry>
+ <entry key="ribbon">MOÑO</entry>
+ <entry key="sombrero">SOMBRERO MEXICANO</entry>
+ <entry key="batmask">MASCARA DE BATMAN</entry>
+ <entry key="hasselhof">HASSELHOF</entry>
+ <entry key="bighorn">CUERNO GRANDE</entry>
+ <entry key="windup_helmet">CASCO WINDUP</entry>
+ <entry key="windup_spring">WINDUP SPRING</entry>
+
+<!-- Items: Leg -->
+ <entry key="wooden_leg">PIERNA DE MADERA</entry>
+ <entry key="clownpants">PANTALONES DE PAYASO</entry>
+ <entry key="jeans">PANTALONES DE MEZCLILLA</entry>
+ <entry key="brown_jeans">PANTALONES CAFES</entry>
+ <entry key="red_jeans">PANTALONES ROJOS</entry>
+ <entry key="windup_pants">PANTALONES WINDUP</entry>
+ 
+<!-- Items: Mask --> 
+ <entry key="clown_nose">NARIZ DE PAYASO</entry>
+ <entry key="eye_patch">PARCHE DE OJO</entry>
+ <entry key="monocular">MONÓCULO</entry>
+ <entry key="nose_ring">ARETE DE NARIZ</entry>
+ <entry key="paper_bag">BOLSA DE PAPEL</entry>
+ <entry key="sunglasses">LENTES DE SOL</entry>
+ <entry key="tiki_mask">MÁSCARA TIKI</entry>
+ <entry key="censored">CENSURADO</entry>
+ <entry key="bane_mask">MÁSCARA DE BANE</entry>
+ <entry key="christopher_glasses">LENTES DE CHRISTOPHER</entry>
+ <entry key="ragnar_mask">MÁSCARA DE RAGNAR</entry>
+ <entry key="tony_mask">MÁSCARA DE TONY</entry>
+ <entry key="cucumber_eyes">OJOS DE PEPINO</entry>
+ <entry key="makeup">MAQUILLAJE</entry>
+ <entry key="potato_nose">NARIZ DE PAPA</entry>
+ <entry key="demon_eyes">OJOS DE DEMONIO</entry>
+
+</properties>

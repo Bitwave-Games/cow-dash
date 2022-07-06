@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="18" height="12" tilewidth="32" tileheight="32" infinite="0" nextlayerid="12" nextobjectid="23">
+ <properties>
+  <property name="hints" value="trampoline"/>
+  <property name="time_to_beat" value="4"/>
+  <property name="tutorial" value="2"/>
+ </properties>
+ <tileset firstgid="1" name="grass_level" tilewidth="33" tileheight="33" spacing="1" margin="1" tilecount="144" columns="16">
+  <image source="../../sprites/tilesets/34tile.png" width="544" height="306"/>
+ </tileset>
+ <tileset firstgid="145" name="treetops_big_96" tilewidth="96" tileheight="64" tilecount="2" columns="2">
+  <image source="../../sprites/objects/scenery/treetops_big_96.png" width="192" height="64"/>
+ </tileset>
+ <tileset firstgid="147" name="object_tilemap_16" tilewidth="16" tileheight="16" tilecount="12" columns="4">
+  <image source="../../sprites/tilesets/object_tilemap_16.png" width="64" height="48"/>
+ </tileset>
+ <tileset firstgid="159" name="object_tilemap_32" tilewidth="32" tileheight="32" tilecount="25" columns="5">
+  <image source="../../sprites/tilesets/object_tilemap_32.png" width="160" height="160"/>
+  <tile id="0">
+   <properties>
+    <property name="item_no" value="5"/>
+    <property name="type" value="costume_head"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="spawn" value="spawn"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="goal" value="goal"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="name" value="pig"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="direction" value="left"/>
+    <property name="name" value="walking_enemy"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="184" name="object_tilemap_16" tilewidth="16" tileheight="16" tilecount="12" columns="4">
+  <image source="../../sprites/tilesets/object_tilemap_16.png" width="64" height="48"/>
+ </tileset>
+ <tileset firstgid="196" name="object_tilemap_32" tilewidth="32" tileheight="32" tilecount="25" columns="5">
+  <image source="../../sprites/tilesets/object_tilemap_32.png" width="160" height="160"/>
+ </tileset>
+ <layer id="1" name="background" width="18" height="12">
+  <properties>
+   <property name="background" value="background"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFowA/qANiezQxJjLNQDeHXDPINQfdDErcQwwAAFJ1BHE=
+  </data>
+ </layer>
+ <layer id="2" name="main" width="18" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjYBhcgJlC/YxAzATEwhSaIwjEQgNojgKUTgXiNCBWpJJ7HMk0BxauMAwzR5mBtDiDhQc2TIqb6GEOyG9MRGJFHGYAAHKTBOw=
+  </data>
+ </layer>
+ <layer id="3" name="foreground" width="18" height="12">
+  <properties>
+   <property name="foreground" value="foreground"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgF1AQRONijgP6gComdiYNNawAABsoB/Q==
+  </data>
+ </layer>
+ <layer id="4" name="hidden" width="18" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjYBhcgJlK5ggPMnNIBYxAzISEyQWCQCyEhgfSnJEGAF9XAOM=
+  </data>
+ </layer>
+ <layer id="5" name="hints" width="18" height="12">
+  <properties>
+   <property name="Trampoline" value="If you tap in time,:piggies turn into:trampolines!"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AU0AoAAANgAAE=
+  </data>
+ </layer>
+ <objectgroup color="#e70000" id="6" name="hard-blocks">
+  <object id="1" x="0" y="256" width="64" height="128"/>
+  <object id="2" x="64" y="352" width="320" height="32"/>
+  <object id="3" x="512" y="64" width="64" height="320"/>
+  <object id="4" x="0" y="160" width="32" height="96"/>
+  <object id="5" x="384" y="224" width="128" height="160"/>
+  <object id="6" x="384" y="160" width="128" height="64"/>
+  <object id="7" x="0" y="64" height="96"/>
+ </objectgroup>
+ <objectgroup color="#0055ff" id="7" name="soft-blocks"/>
+ <objectgroup id="8" name="treetop_big"/>
+ <objectgroup id="9" name="objects-32px">
+  <object id="8" name="start" gid="160" x="32" y="256" width="32" height="32">
+   <properties>
+    <property name="direction" value="right"/>
+    <property name="health" value="100"/>
+   </properties>
+  </object>
+  <object id="9" name="goal" gid="161" x="480" y="128" width="32" height="32"/>
+  <object id="10" name="piggie" gid="162" x="209" y="352" width="32" height="32"/>
+  <object id="11" name="chest" gid="159" x="0" y="160" width="32" height="32">
+   <properties>
+    <property name="item_no" value="12"/>
+    <property name="type" value="costume_head"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="10" name="Tile Layer 6" width="18" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AU0AoAAANgAAE=
+  </data>
+ </layer>
+ <objectgroup id="11" name="objects-16px">
+  <object id="12" name="veggie" gid="150" x="72" y="216" width="16" height="16"/>
+  <object id="13" name="veggie" gid="150" x="111" y="197" width="16" height="16"/>
+  <object id="14" name="veggie" gid="150" x="155" y="229" width="16" height="16"/>
+  <object id="15" name="veggie" gid="150" x="189" y="269" width="16" height="16"/>
+  <object id="16" name="veggie" gid="150" x="216" y="311" width="16" height="16"/>
+  <object id="17" name="veggie" gid="150" x="232" y="276" width="16" height="16"/>
+  <object id="18" name="veggie" gid="150" x="247" y="241" width="16" height="16"/>
+  <object id="19" name="veggie" gid="150" x="262" y="207" width="16" height="16"/>
+  <object id="20" name="veggie" gid="150" x="276" y="167" width="16" height="16"/>
+  <object id="21" name="veggie" gid="150" x="292" y="129" width="16" height="16"/>
+  <object id="22" name="veggie" gid="150" x="312" y="99" width="16" height="16"/>
+ </objectgroup>
+</map>

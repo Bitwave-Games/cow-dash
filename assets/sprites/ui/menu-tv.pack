@@ -1,0 +1,1157 @@
+
+menu-tv.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+mountains
+  rotate: false
+  xy: 1, 761
+  size: 683, 256
+  orig: 683, 256
+  offset: 0, 0
+  index: -1
+dialog_box
+  rotate: false
+  xy: 1, 519
+  size: 400, 240
+  orig: 400, 240
+  offset: 0, 0
+  index: -1
+premium_es
+  rotate: false
+  xy: 1, 277
+  size: 400, 240
+  orig: 400, 240
+  offset: 0, 0
+  index: -1
+options_top_zh
+  rotate: false
+  xy: 1, 35
+  size: 400, 240
+  orig: 400, 240
+  offset: 0, 0
+  index: -1
+blank
+  rotate: false
+  xy: 403, 519
+  size: 400, 240
+  orig: 400, 240
+  offset: 0, 0
+  index: -1
+options_top
+  rotate: false
+  xy: 403, 277
+  size: 400, 240
+  orig: 400, 240
+  offset: 0, 0
+  index: -1
+options_top_es
+  rotate: false
+  xy: 403, 35
+  size: 400, 240
+  orig: 400, 240
+  offset: 0, 0
+  index: -1
+premium_already_purchased_es
+  rotate: false
+  xy: 1, 19
+  size: 400, 14
+  orig: 400, 14
+  offset: 0, 0
+  index: -1
+premium_already_purchased_zh
+  rotate: false
+  xy: 1, 3
+  size: 400, 14
+  orig: 400, 14
+  offset: 0, 0
+  index: -1
+premium_already_purchased
+  rotate: false
+  xy: 403, 19
+  size: 400, 14
+  orig: 400, 14
+  offset: 0, 0
+  index: -1
+cow_dash_logo
+  rotate: false
+  xy: 686, 889
+  size: 256, 128
+  orig: 256, 128
+  offset: 0, 0
+  index: -1
+level_select_level_name
+  rotate: false
+  xy: 686, 823
+  size: 256, 64
+  orig: 256, 64
+  offset: 0, 0
+  index: -1
+my_cow_name_box
+  rotate: false
+  xy: 686, 773
+  size: 240, 48
+  orig: 240, 48
+  offset: 0, 0
+  index: -1
+options_bottom_es
+  rotate: false
+  xy: 805, 665
+  size: 114, 106
+  orig: 114, 106
+  offset: 0, 0
+  index: -1
+options_bottom_zh
+  rotate: false
+  xy: 805, 557
+  size: 114, 106
+  orig: 114, 106
+  offset: 0, 0
+  index: -1
+options_bottom
+  rotate: false
+  xy: 805, 449
+  size: 114, 106
+  orig: 114, 106
+  offset: 0, 0
+  index: -1
+item_selector_back_normal
+  rotate: false
+  xy: 805, 351
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: -1
+item_selector_back
+  rotate: false
+  xy: 805, 253
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: -1
+item_selector_hat_normal
+  rotate: false
+  xy: 805, 155
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: -1
+item_selector_mask
+  rotate: false
+  xy: 805, 57
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: -1
+sparkly_sparkle_red_16x16_strip8
+  rotate: false
+  xy: 403, 1
+  size: 128, 16
+  orig: 128, 16
+  offset: 0, 0
+  index: -1
+sparkly_sparkle_yellow_16x16_strip8
+  rotate: false
+  xy: 533, 1
+  size: 128, 16
+  orig: 128, 16
+  offset: 0, 0
+  index: -1
+sparkly_sparkle_green_16x16_strip8
+  rotate: false
+  xy: 663, 1
+  size: 128, 16
+  orig: 128, 16
+  offset: 0, 0
+  index: -1
+options_fx
+  rotate: false
+  xy: 944, 949
+  size: 68, 68
+  orig: 68, 68
+  offset: 0, 0
+  index: -1
+options_fx_light
+  rotate: false
+  xy: 944, 879
+  size: 68, 68
+  orig: 68, 68
+  offset: 0, 0
+  index: -1
+options_clear data_normal
+  rotate: false
+  xy: 805, 7
+  size: 160, 48
+  orig: 160, 48
+  offset: 0, 0
+  index: -1
+options_fx_normal
+  rotate: false
+  xy: 944, 809
+  size: 68, 68
+  orig: 68, 68
+  offset: 0, 0
+  index: -1
+item_selector_mask_normal
+  rotate: false
+  xy: 903, 351
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: -1
+item_selector_shirt
+  rotate: false
+  xy: 903, 253
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: -1
+item_selector_pants_normal
+  rotate: false
+  xy: 903, 155
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: -1
+item_selector_pants
+  rotate: false
+  xy: 903, 57
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: -1
+item_selector_shirt_normal
+  rotate: false
+  xy: 921, 675
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: -1
+item_selector_hat
+  rotate: false
+  xy: 921, 577
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: -1
+level_select_back_bg
+  rotate: false
+  xy: 921, 495
+  size: 96, 80
+  orig: 96, 80
+  offset: 0, 0
+  index: -1
+my_cow_share
+  rotate: false
+  xy: 967, 7
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+my_cow_change_name
+  rotate: false
+  xy: 921, 461
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+leaderboard_button
+  rotate: false
+  xy: 955, 461
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+level_select_button_ultra_complete
+  rotate: false
+  xy: 989, 461
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+premium_close
+  rotate: false
+  xy: 1001, 437
+  size: 22, 22
+  orig: 22, 22
+  offset: 0, 0
+  index: -1
+my_cow_back_normal
+  rotate: false
+  xy: 1001, 416
+  size: 22, 19
+  orig: 22, 19
+  offset: 0, 0
+  index: -1
+my_cow_back
+  rotate: false
+  xy: 1001, 395
+  size: 22, 19
+  orig: 22, 19
+  offset: 0, 0
+  index: -1
+achievement_and_login_button_highlighted
+  rotate: false
+  xy: 928, 775
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+my_cow_change_name_normal
+  rotate: false
+  xy: 962, 775
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+level_select_small_medal_taken
+  rotate: false
+  xy: 1001, 377
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+level_select_small_medal_not_taken
+  rotate: false
+  xy: 996, 791
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+whiterect
+  rotate: false
+  xy: 686, 770
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+
+menu2-tv.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+grasshills
+  rotate: false
+  xy: 1, 893
+  size: 512, 128
+  orig: 512, 128
+  offset: 0, 0
+  index: -1
+premium_zh
+  rotate: false
+  xy: 515, 781
+  size: 400, 240
+  orig: 400, 240
+  offset: 0, 0
+  index: -1
+medal_veggie_spritesheet_colored
+  rotate: false
+  xy: 1, 827
+  size: 512, 64
+  orig: 512, 64
+  offset: 0, 0
+  index: -1
+medal_treasure_spritesheet_colored
+  rotate: false
+  xy: 1, 761
+  size: 512, 64
+  orig: 512, 64
+  offset: 0, 0
+  index: -1
+options_music
+  rotate: false
+  xy: 917, 957
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+leaderboard_button_highlighted
+  rotate: false
+  xy: 983, 989
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+start_menu_quit_normal
+  rotate: false
+  xy: 983, 955
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+level_select_back_normal
+  rotate: false
+  xy: 917, 891
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+level_select_button_finnished
+  rotate: false
+  xy: 983, 921
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+start_menu_quit_pressed
+  rotate: false
+  xy: 983, 887
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+level_select_back
+  rotate: false
+  xy: 917, 825
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+level_select_button_unfinnished
+  rotate: false
+  xy: 983, 853
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+achievement_and_login_button
+  rotate: false
+  xy: 983, 819
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+options_vib_normal
+  rotate: false
+  xy: 917, 759
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+world_select_bg_icons
+  rotate: false
+  xy: 515, 539
+  size: 400, 240
+  orig: 400, 240
+  offset: 0, 0
+  index: -1
+medal_time_spritesheet_colored
+  rotate: false
+  xy: 1, 695
+  size: 512, 64
+  orig: 512, 64
+  offset: 0, 0
+  index: -1
+level_select_play_green
+  rotate: false
+  xy: 917, 693
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+options_sound_normal
+  rotate: false
+  xy: 917, 627
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+level_select_play_normal
+  rotate: false
+  xy: 917, 561
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+dialog_box_no_normal
+  rotate: false
+  xy: 917, 495
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+premium
+  rotate: false
+  xy: 1, 453
+  size: 400, 240
+  orig: 400, 240
+  offset: 0, 0
+  index: -1
+options_music_light
+  rotate: false
+  xy: 403, 629
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+world_select_gras_button
+  rotate: false
+  xy: 403, 563
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+options_vib_light
+  rotate: false
+  xy: 403, 497
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+level_select_top
+  rotate: false
+  xy: 469, 441
+  size: 400, 96
+  orig: 400, 96
+  offset: 0, 0
+  index: -1
+world_select_gras_button_2
+  rotate: false
+  xy: 403, 431
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+level_select_top_es
+  rotate: false
+  xy: 1, 355
+  size: 400, 96
+  orig: 400, 96
+  offset: 0, 0
+  index: -1
+mediumcloud
+  rotate: false
+  xy: 871, 434
+  size: 152, 59
+  orig: 152, 59
+  offset: 0, 0
+  index: -1
+level_select_top_zh
+  rotate: false
+  xy: 469, 343
+  size: 400, 96
+  orig: 400, 96
+  offset: 0, 0
+  index: -1
+options_sound
+  rotate: false
+  xy: 403, 365
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+dialog_box_yes_normal
+  rotate: false
+  xy: 403, 299
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+my_cow_bg_bottom_nocart
+  rotate: false
+  xy: 1, 278
+  size: 400, 75
+  orig: 400, 75
+  offset: 0, 0
+  index: -1
+start_menu_optionspressed
+  rotate: false
+  xy: 871, 397
+  size: 135, 35
+  orig: 135, 35
+  offset: 0, 0
+  index: -1
+start_menu_play_normal
+  rotate: false
+  xy: 871, 360
+  size: 135, 35
+  orig: 135, 35
+  offset: 0, 0
+  index: -1
+start_menu_options
+  rotate: false
+  xy: 871, 323
+  size: 135, 35
+  orig: 135, 35
+  offset: 0, 0
+  index: -1
+my_cow_bg_bottom
+  rotate: false
+  xy: 469, 266
+  size: 400, 75
+  orig: 400, 75
+  offset: 0, 0
+  index: -1
+dialog_box_no
+  rotate: false
+  xy: 403, 233
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+level_select_bottom
+  rotate: false
+  xy: 1, 204
+  size: 400, 72
+  orig: 400, 72
+  offset: 0, 0
+  index: -1
+start_menu_options_zh
+  rotate: false
+  xy: 871, 286
+  size: 135, 35
+  orig: 135, 35
+  offset: 0, 0
+  index: -1
+start_menu_play_pressed
+  rotate: false
+  xy: 871, 249
+  size: 135, 35
+  orig: 135, 35
+  offset: 0, 0
+  index: -1
+level_select_bottom_cutout
+  rotate: false
+  xy: 469, 192
+  size: 400, 72
+  orig: 400, 72
+  offset: 0, 0
+  index: -1
+options_vib
+  rotate: false
+  xy: 403, 167
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+world_select_bg_title
+  rotate: false
+  xy: 1, 138
+  size: 400, 64
+  orig: 400, 64
+  offset: 0, 0
+  index: -1
+start_menu_shop
+  rotate: false
+  xy: 871, 212
+  size: 135, 35
+  orig: 135, 35
+  offset: 0, 0
+  index: -1
+start_menu_shop_normal
+  rotate: false
+  xy: 871, 175
+  size: 135, 35
+  orig: 135, 35
+  offset: 0, 0
+  index: -1
+world_select_bg_title_zh
+  rotate: false
+  xy: 469, 126
+  size: 400, 64
+  orig: 400, 64
+  offset: 0, 0
+  index: -1
+my_cow_cow_selector_normal
+  rotate: false
+  xy: 403, 101
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+my_cow_cow_select_panel
+  rotate: false
+  xy: 1, 72
+  size: 400, 64
+  orig: 400, 64
+  offset: 0, 0
+  index: -1
+my_cow_bg_top
+  rotate: false
+  xy: 1, 6
+  size: 400, 64
+  orig: 400, 64
+  offset: 0, 0
+  index: -1
+start_menu_options_es
+  rotate: false
+  xy: 871, 138
+  size: 135, 35
+  orig: 135, 35
+  offset: 0, 0
+  index: -1
+start_menu_my_cow_pressed_zh
+  rotate: false
+  xy: 871, 101
+  size: 135, 35
+  orig: 135, 35
+  offset: 0, 0
+  index: -1
+world_select_bg_title_es
+  rotate: false
+  xy: 469, 60
+  size: 400, 64
+  orig: 400, 64
+  offset: 0, 0
+  index: -1
+options_music_normal
+  rotate: false
+  xy: 403, 35
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+smallcloud
+  rotate: false
+  xy: 469, 1
+  size: 132, 57
+  orig: 132, 57
+  offset: 0, 0
+  index: -1
+unlock_screen_bw
+  rotate: false
+  xy: 603, 4
+  size: 400, 54
+  orig: 400, 54
+  offset: 0, 0
+  index: -1
+start_menu_my_cow_normal_es
+  rotate: false
+  xy: 871, 64
+  size: 135, 35
+  orig: 135, 35
+  offset: 0, 0
+  index: -1
+
+  
+menu3-tv.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+options_sound_text_normal_es
+  rotate: false
+  xy: 1, 447
+  size: 160, 64
+  orig: 160, 64
+  offset: 0, 0
+  index: -1
+options_music_text
+  rotate: false
+  xy: 1, 381
+  size: 160, 64
+  orig: 160, 64
+  offset: 0, 0
+  index: -1
+options_sound_text_zh
+  rotate: false
+  xy: 163, 447
+  size: 160, 64
+  orig: 160, 64
+  offset: 0, 0
+  index: -1
+options_music_text_normal_zh
+  rotate: false
+  xy: 1, 315
+  size: 160, 64
+  orig: 160, 64
+  offset: 0, 0
+  index: -1
+options_vibration_text_es
+  rotate: false
+  xy: 163, 381
+  size: 160, 64
+  orig: 160, 64
+  offset: 0, 0
+  index: -1
+options_vibration_text_normal
+  rotate: false
+  xy: 325, 447
+  size: 160, 64
+  orig: 160, 64
+  offset: 0, 0
+  index: -1
+options_music_text_normal
+  rotate: false
+  xy: 1, 249
+  size: 160, 64
+  orig: 160, 64
+  offset: 0, 0
+  index: -1
+options_music_text_zh
+  rotate: false
+  xy: 163, 315
+  size: 160, 64
+  orig: 160, 64
+  offset: 0, 0
+  index: -1
+level_select_button_gold_strip6
+  rotate: false
+  xy: 487, 479
+  size: 192, 32
+  orig: 192, 32
+  offset: 0, 0
+  index: -1
+options_sound_text_normal
+  rotate: false
+  xy: 325, 381
+  size: 160, 64
+  orig: 160, 64
+  offset: 0, 0
+  index: -1
+options_music_text_normal_es
+  rotate: false
+  xy: 1, 183
+  size: 160, 64
+  orig: 160, 64
+  offset: 0, 0
+  index: -1
+level_select_button_grey_strip6
+  rotate: false
+  xy: 487, 445
+  size: 192, 32
+  orig: 192, 32
+  offset: 0, 0
+  index: -1
+options_vibration_text_normal_zh
+  rotate: false
+  xy: 163, 249
+  size: 160, 64
+  orig: 160, 64
+  offset: 0, 0
+  index: -1
+options_sound_text_normal_zh
+  rotate: false
+  xy: 681, 447
+  size: 160, 64
+  orig: 160, 64
+  offset: 0, 0
+  index: -1
+options_music_text_es
+  rotate: false
+  xy: 325, 315
+  size: 160, 64
+  orig: 160, 64
+  offset: 0, 0
+  index: -1
+options_sound_text
+  rotate: false
+  xy: 1, 117
+  size: 160, 64
+  orig: 160, 64
+  offset: 0, 0
+  index: -1
+options_vibration_text
+  rotate: false
+  xy: 487, 379
+  size: 160, 64
+  orig: 160, 64
+  offset: 0, 0
+  index: -1
+options_vibration_text_zh
+  rotate: false
+  xy: 163, 183
+  size: 160, 64
+  orig: 160, 64
+  offset: 0, 0
+  index: -1
+options_sound_text_es
+  rotate: false
+  xy: 843, 447
+  size: 160, 64
+  orig: 160, 64
+  offset: 0, 0
+  index: -1
+options_vibration_text_normal_es
+  rotate: false
+  xy: 325, 249
+  size: 160, 64
+  orig: 160, 64
+  offset: 0, 0
+  index: -1
+options_clear data_normal_zh
+  rotate: false
+  xy: 1, 67
+  size: 160, 48
+  orig: 160, 48
+  offset: 0, 0
+  index: -1
+options_credits_normal_zh
+  rotate: false
+  xy: 1, 1
+  size: 112, 64
+  orig: 112, 64
+  offset: 0, 0
+  index: -1
+options_credits
+  rotate: false
+  xy: 115, 1
+  size: 112, 64
+  orig: 112, 64
+  offset: 0, 0
+  index: -1
+options_clear data_zh
+  rotate: false
+  xy: 487, 329
+  size: 160, 48
+  orig: 160, 48
+  offset: 0, 0
+  index: -1
+options_clear data_es
+  rotate: false
+  xy: 325, 199
+  size: 160, 48
+  orig: 160, 48
+  offset: 0, 0
+  index: -1
+options_clear data
+  rotate: false
+  xy: 163, 133
+  size: 160, 48
+  orig: 160, 48
+  offset: 0, 0
+  index: -1
+options_credits_normal_es
+  rotate: false
+  xy: 163, 67
+  size: 112, 64
+  orig: 112, 64
+  offset: 0, 0
+  index: -1
+options_credits_normal
+  rotate: false
+  xy: 229, 1
+  size: 112, 64
+  orig: 112, 64
+  offset: 0, 0
+  index: -1
+options_clear data_normal_es
+  rotate: false
+  xy: 487, 279
+  size: 160, 48
+  orig: 160, 48
+  offset: 0, 0
+  index: -1
+options_clear data_normal
+  rotate: false
+  xy: 325, 149
+  size: 160, 48
+  orig: 160, 48
+  offset: 0, 0
+  index: -1
+world_select_beach_locked_countdown_button
+  rotate: false
+  xy: 277, 67
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+options_credits_es
+  rotate: false
+  xy: 487, 213
+  size: 112, 64
+  orig: 112, 64
+  offset: 0, 0
+  index: -1
+options_credits_zh
+  rotate: false
+  xy: 487, 147
+  size: 112, 64
+  orig: 112, 64
+  offset: 0, 0
+  index: -1
+start_menu_my_cow_normal_zh
+  rotate: false
+  xy: 343, 112
+  size: 135, 35
+  orig: 135, 35
+  offset: 0, 0
+  index: -1
+start_menu_play_normal_zh
+  rotate: false
+  xy: 343, 75
+  size: 135, 35
+  orig: 135, 35
+  offset: 0, 0
+  index: -1
+start_menu_play_pressed_es
+  rotate: false
+  xy: 343, 38
+  size: 135, 35
+  orig: 135, 35
+  offset: 0, 0
+  index: -1
+start_menu_play_normal_es
+  rotate: false
+  xy: 343, 1
+  size: 135, 35
+  orig: 135, 35
+  offset: 0, 0
+  index: -1
+start_menu_my_cow_pressed_es
+  rotate: false
+  xy: 480, 110
+  size: 135, 35
+  orig: 135, 35
+  offset: 0, 0
+  index: -1
+start_menu_optionspressed_es
+  rotate: false
+  xy: 480, 73
+  size: 135, 35
+  orig: 135, 35
+  offset: 0, 0
+  index: -1
+start_menu_optionspressed_zh
+  rotate: false
+  xy: 480, 36
+  size: 135, 35
+  orig: 135, 35
+  offset: 0, 0
+  index: -1
+start_menu_play_pressed_zh
+  rotate: false
+  xy: 681, 410
+  size: 135, 35
+  orig: 135, 35
+  offset: 0, 0
+  index: -1
+start_menu_my_cow_pressed
+  rotate: false
+  xy: 818, 410
+  size: 135, 35
+  orig: 135, 35
+  offset: 0, 0
+  index: -1
+start_menu_my_cow_normal
+  rotate: false
+  xy: 649, 373
+  size: 135, 35
+  orig: 135, 35
+  offset: 0, 0
+  index: -1
+world_select_beach_premium_locked_button
+  rotate: false
+  xy: 649, 307
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+medal_shadow
+  rotate: false
+  xy: 715, 307
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+options_back_to_menu
+  rotate: false
+  xy: 601, 213
+  size: 48, 64
+  orig: 48, 64
+  offset: 0, 0
+  index: -1
+world_select_grass_locked_button
+  rotate: false
+  xy: 601, 147
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+level_select_back_normal
+  rotate: false
+  xy: 617, 81
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+level_select_play
+  rotate: false
+  xy: 617, 15
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+level_select_back
+  rotate: false
+  xy: 651, 241
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+dialog_box_yes
+  rotate: false
+  xy: 717, 241
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+world_select_locked_button
+  rotate: false
+  xy: 667, 175
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+options_back_to_menu_normal
+  rotate: false
+  xy: 733, 175
+  size: 48, 64
+  orig: 48, 64
+  offset: 0, 0
+  index: -1
+world_select_beach_button
+  rotate: false
+  xy: 683, 109
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+world_select_grass_premium_locked_button
+  rotate: false
+  xy: 683, 43
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+my_cow_cow_selector_highlighted
+  rotate: false
+  xy: 786, 344
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+options_sound_light
+  rotate: false
+  xy: 852, 344
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+world_select_beach_premium_button
+  rotate: false
+  xy: 918, 345
+  size: 63, 63
+  orig: 63, 63
+  offset: 0, 0
+  index: -1
+my_cow_share_normal
+  rotate: false
+  xy: 750, 125
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+my_cow_shop
+  rotate: false
+  xy: 749, 125
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+my_cow_shop_normal
+  rotate: false
+  xy: 749, 75
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1

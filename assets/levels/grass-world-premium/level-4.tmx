@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="31" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="138">
+ <properties>
+  <property name="hints" value="trampolineenemy,secret_entrance"/>
+  <property name="time_to_beat" value="15"/>
+ </properties>
+ <tileset firstgid="1" name="grass_level" tilewidth="33" tileheight="33" spacing="1" margin="1" tilecount="144" columns="16">
+  <image source="../../sprites/tilesets/34tile.png" width="544" height="306"/>
+ </tileset>
+ <tileset firstgid="145" name="treetops_big_96" tilewidth="96" tileheight="64" tilecount="2" columns="2">
+  <image source="../../sprites/objects/scenery/treetops_big_96.png" width="192" height="64"/>
+ </tileset>
+ <tileset firstgid="147" name="object_tilemap_16" tilewidth="16" tileheight="16" tilecount="12" columns="4">
+  <image source="../../sprites/tilesets/object_tilemap_16.png" width="64" height="48"/>
+ </tileset>
+ <tileset firstgid="159" name="object_tilemap_32" tilewidth="32" tileheight="32" tilecount="25" columns="5">
+  <image source="../../sprites/tilesets/object_tilemap_32.png" width="160" height="160"/>
+  <tile id="0">
+   <properties>
+    <property name="item_no" value="5"/>
+    <property name="type" value="costume_head"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="spawn" value="spawn"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="goal" value="goal"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="name" value="pig"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="direction" value="left"/>
+    <property name="name" value="walking_enemy"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer id="1" name="background" width="30" height="31">
+  <properties>
+   <property name="background" value="background"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJztlUEKgCAQRecaboMu4QnC03SAFrNqVXcug6AmoxlrRgg/fBQRn18ZBSij6eDZiNkkuKOBgXB75n7dod8CoCwtnxs5Xc7iGVwvXEc6P8WN2QJsZ3jSOo4tXLPv8x3wlXO/UnnSWnEDaSkXlbgpWeR94mIhLuedlNaLNvdN/XK4QTjO4UYPHxmF3K/8VBtaXJqX3r9V3r9zkfCs86b+BO28dzWmxayurrbxAvMxHM8=
+  </data>
+ </layer>
+ <layer id="2" name="main" width="30" height="31">
+  <data encoding="base64" compression="zlib">
+   eJzFVstKA0EQbJUkx8BKdo9RxLMIBs+Cf+AvqDkLIiannPxupzCNlUrPOtldtaHYycxu1/SjZlKZWfVPePtjgPMm4YMwhF2abaKx23XCPf2eduBYB3NPCc9bLIP1O+GdF3KdZcalVsqL/Uf77mpd4o3yOgTvY8JxD5wcyLtKpQLvq/XTyDv5X++ONz7Xta9KbZQwTljI87d5m2BcW5znvubaXQrvjPijeJGbyQD8zAWr6RnxzugdtyPb79WfziRYSZ6d1zkY5/Z1lp9m/OesJM8lOoJGOE4GYkaN0LOo01R4OYdVEG+brYK7hY1jmttufXms95H2FXicC/lvO4vwXkPfzy2uLyzXzwv71vhk6xP557NIOUf0zdj2483xen15XX2pvrieqpm2PEfxRr3g551yz+jJfeP1PSTPvC8+Xyc0x3XQ9a68ud6vg7mcX7xza7HegEhHOV+c67ac+3dtmot0pHnmnGoP5faIMeuO9Qg7JM/M1ci63iVYd91FPaI6uhIf7l/15D48Ju5n5uEzgPeu8fIaa7ORNY3Jz6mo7lEtwPsgvJpDjyWKQ9GmL44DvLjbuOaN7f8vUt85zuipOUAMLwkX1u9/axfgPv8EToBd/g==
+  </data>
+ </layer>
+ <layer id="3" name="foreground" width="30" height="31">
+  <properties>
+   <property name="foreground" value="foreground"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBi5oI2B4cBAu4ESkArEaVCcTkVzFXCwYaCVARx2YNxOgT0g9yO72wAHm9oA5H5K3D0KMAFymiAHj7T4gOVdauZbYgAsnmgV3rQqkwgBapVJtARWSOxUHGrw5SNy/YVsbyuZZpBrrxVBVaP2UsNOetvrhYTpAcwZEOUKOqYlwJcfhyqohOAGSs3Rp9wpZAFatg0HG6jEwcanjlgzkegGaqQHSgAA0tYrow==
+  </data>
+ </layer>
+ <layer id="4" name="hidden" width="30" height="31" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgYIISGB8JekwGyN3iA7BUetZcu9ioDMdMA2AvCZQNgLygftQ2AvS50snOk2ztQ5RW98lEhA2Y+wodh7iIGM+OxV5FEe0nBhMq+UXtH7aW2vaTmI1IwvjxHy3w0ikfxKKY9BgBd/yTr
+  </data>
+ </layer>
+ <layer id="5" name="hints" width="30" height="31">
+  <properties>
+   <property name="Spikes" value="Watch out for spikes,:they hurt alot!"/>
+   <property name="hintw" value="There is a secret entrance:that leads under the ground!:The enemy is the key"/>
+   <property name="int424" value="Enemies can be used as a:trampoline. Just make sure:to tap in time!"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20LL6AAAADgZw6IAAE=
+  </data>
+ </layer>
+ <objectgroup color="#e70000" id="6" name="hard-blocks">
+  <object id="1" x="0" y="32" width="32" height="960"/>
+  <object id="2" x="928" y="32" width="32" height="992"/>
+  <object id="3" x="0" y="960" width="960" height="32"/>
+  <object id="4" x="32" y="32" width="896" height="32"/>
+  <object id="5" x="96" y="224" width="576" height="64"/>
+  <object id="6" x="96" y="96" width="32" height="128"/>
+  <object id="7" x="96" y="288" width="32" height="576"/>
+  <object id="8" x="128" y="480" width="480" height="32"/>
+  <object id="9" x="704" y="480" width="32" height="256"/>
+  <object id="10" x="736" y="704" width="192" height="32"/>
+  <object id="11" x="288" y="160" width="64" height="32"/>
+  <object id="12" x="416" y="128" width="32" height="32"/>
+  <object id="13" x="512" y="128" width="32" height="32"/>
+  <object id="14" x="672" y="96" width="128" height="32"/>
+  <object id="15" x="128" y="448" width="256" height="32"/>
+  <object id="16" x="288" y="416" width="96" height="32"/>
+  <object id="17" x="640" y="352" width="96" height="32"/>
+  <object id="18" x="448" y="416" width="128" height="32"/>
+  <object id="19" x="896" y="480" width="32" height="32"/>
+  <object id="20" x="320" y="544" width="64" height="64"/>
+  <object id="21" x="480" y="832" width="64" height="64"/>
+  <object id="22" x="704" y="768" width="64" height="64"/>
+ </objectgroup>
+ <objectgroup color="#0055ff" id="7" name="soft-blocks">
+  <object id="23" x="736" y="288" width="192" height="32"/>
+  <object id="24" x="128" y="384" width="64" height="32"/>
+  <object id="25" x="576" y="576" width="128" height="32"/>
+  <object id="26" x="128" y="576" width="160" height="32"/>
+  <object id="27" x="128" y="544" width="64" height="32"/>
+  <object id="28" x="224" y="608" width="160" height="32"/>
+  <object id="29" x="480" y="608" width="96" height="32"/>
+  <object id="30" x="288" y="640" width="128" height="32"/>
+  <object id="31" x="224" y="672" width="128" height="32"/>
+  <object id="32" x="384" y="672" width="224" height="32"/>
+  <object id="33" x="320" y="736" width="192" height="32"/>
+  <object id="34" x="224" y="768" width="192" height="32"/>
+  <object id="35" x="128" y="832" width="64" height="32"/>
+  <object id="36" x="192" y="864" width="96" height="32"/>
+  <object id="37" x="288" y="832" width="192" height="32"/>
+  <object id="38" x="544" y="800" width="64" height="32"/>
+  <object id="39" x="576" y="864" width="128" height="32"/>
+  <object id="40" x="640" y="832" width="192" height="32"/>
+  <object id="41" x="768" y="800" width="128" height="32"/>
+  <object id="42" x="832" y="896" width="96" height="32"/>
+  <object id="43" x="160" y="928" width="704" height="32"/>
+  <object id="44" x="320" y="896" width="480" height="32"/>
+  <object id="45" x="640" y="544" width="64" height="32"/>
+  <object id="46" x="608" y="480" width="96" height="32"/>
+ </objectgroup>
+ <objectgroup id="8" name="treetop_big"/>
+ <objectgroup id="9" name="objects-16px">
+  <object id="47" name="veggie" gid="150" x="136" y="376" width="16" height="16"/>
+  <object id="48" name="veggie" gid="150" x="168" y="376" width="16" height="16"/>
+  <object id="49" name="veggie" gid="150" x="328" y="392" width="16" height="16"/>
+  <object id="50" name="veggie" gid="150" x="488" y="472" width="16" height="16"/>
+  <object id="51" name="veggie" gid="150" x="520" y="472" width="16" height="16"/>
+  <object id="52" name="veggie" gid="150" x="488" y="408" width="16" height="16"/>
+  <object id="53" name="veggie" gid="150" x="520" y="408" width="16" height="16"/>
+  <object id="54" name="veggie" gid="150" x="904" y="448" width="16" height="16"/>
+  <object id="55" name="veggie" gid="150" x="776" y="280" width="16" height="16"/>
+  <object id="56" name="veggie" gid="150" x="744" y="280" width="16" height="16"/>
+  <object id="57" name="veggie" gid="150" x="808" y="280" width="16" height="16"/>
+  <object id="58" name="veggie" gid="150" x="840" y="280" width="16" height="16"/>
+  <object id="59" name="veggie" gid="150" x="872" y="280" width="16" height="16"/>
+  <object id="60" name="veggie" gid="150" x="424" y="120" width="16" height="16"/>
+  <object id="61" name="veggie" gid="150" x="520" y="120" width="16" height="16"/>
+  <object id="62" name="veggie" gid="150" x="200" y="216" width="16" height="16"/>
+  <object id="63" name="veggie" gid="150" x="232" y="216" width="16" height="16"/>
+  <object id="64" name="veggie" gid="150" x="264" y="216" width="16" height="16"/>
+  <object id="65" name="spike" gid="154" x="96" y="960" width="16" height="16"/>
+  <object id="66" name="spike" gid="154" x="112" y="952" width="16" height="16"/>
+  <object id="67" name="spike" gid="154" x="104" y="944" width="16" height="16"/>
+  <object id="68" name="spike" gid="154" x="512" y="912" width="16" height="16"/>
+  <object id="69" name="spike" gid="154" x="480" y="928" width="16" height="16"/>
+  <object id="70" name="spike" gid="154" x="536" y="904" width="16" height="16"/>
+  <object id="71" name="spike" gid="154" x="496" y="920" width="16" height="16"/>
+  <object id="72" name="spike" gid="154" x="512" y="920" width="16" height="16"/>
+  <object id="73" name="spike" gid="154" x="528" y="944" width="16" height="16"/>
+  <object id="74" name="spike" gid="154" x="544" y="920" width="16" height="16"/>
+  <object id="75" name="spike" gid="154" x="520" y="936" width="16" height="16"/>
+  <object id="76" name="spike" gid="154" x="352" y="688" width="16" height="16"/>
+  <object id="77" name="spike" gid="154" x="368" y="712" width="16" height="16"/>
+  <object id="78" name="spike" gid="154" x="360" y="704" width="16" height="16"/>
+  <object id="79" name="spike" gid="154" x="128" y="688" width="16" height="16"/>
+  <object id="80" name="spike" gid="154" x="144" y="688" width="16" height="16"/>
+  <object id="81" name="spike" gid="154" x="120" y="696" width="16" height="16"/>
+  <object id="82" name="spike" gid="154" x="128" y="416" width="16" height="16"/>
+  <object id="83" name="spike" gid="154" x="120" y="432" width="16" height="16"/>
+  <object id="84" name="spike" gid="154" x="128" y="448" width="16" height="16"/>
+  <object id="85" name="spike" gid="154" x="248" y="464" width="16" height="16"/>
+  <object id="86" name="spike" gid="154" x="248" y="440" width="16" height="16"/>
+  <object id="87" name="spike" gid="154" x="280" y="440" width="16" height="16"/>
+  <object id="88" name="spike" gid="154" x="272" y="432" width="16" height="16"/>
+  <object id="89" name="spike" gid="154" x="256" y="432" width="16" height="16"/>
+  <object id="90" name="spike" gid="154" x="288" y="424" width="16" height="16"/>
+  <object id="91" name="spike" gid="154" x="448" y="448" width="16" height="16"/>
+  <object id="92" name="spike" gid="154" x="440" y="432" width="16" height="16"/>
+  <object id="93" name="spike" gid="154" x="504" y="336" width="16" height="16"/>
+  <object id="94" name="spike" gid="154" x="496" y="352" width="16" height="16"/>
+  <object id="95" name="spike" gid="154" x="512" y="344" width="16" height="16"/>
+  <object id="96" name="spike" gid="154" x="736" y="312" width="16" height="16"/>
+  <object id="97" name="spike" gid="154" x="728" y="320" width="16" height="16"/>
+  <object id="98" name="spike" gid="154" x="744" y="336" width="16" height="16"/>
+  <object id="99" name="spike" gid="154" x="776" y="352" width="16" height="16"/>
+  <object id="100" name="spike" gid="154" x="752" y="344" width="16" height="16"/>
+  <object id="101" name="spike" gid="154" x="664" y="256" width="16" height="16"/>
+  <object id="102" name="spike" gid="154" x="656" y="272" width="16" height="16"/>
+  <object id="103" name="spike" gid="154" x="472" y="152" width="16" height="16"/>
+  <object id="104" name="spike" gid="154" x="464" y="80" width="16" height="16"/>
+  <object id="105" name="spike" gid="154" x="472" y="72" width="16" height="16"/>
+  <object id="106" name="spike" gid="154" x="496" y="80" width="16" height="16"/>
+  <object id="107" name="spike" gid="154" x="232" y="64" width="16" height="16"/>
+  <object id="108" name="spike" gid="154" x="240" y="56" width="16" height="16"/>
+  <object id="109" name="spike" gid="154" x="264" y="64" width="16" height="16"/>
+  <object id="110" name="spike" gid="154" x="304" y="72" width="16" height="16"/>
+  <object id="111" name="spike" gid="154" x="280" y="64" width="16" height="16"/>
+  <object id="112" name="spike" gid="154" x="256" y="72" width="16" height="16"/>
+  <object id="113" name="spike" gid="154" x="296" y="56" width="16" height="16"/>
+  <object id="114" name="spike" gid="154" x="296" y="80" width="16" height="16"/>
+  <object id="115" name="golden_veggie" gid="155" x="40" y="856" width="16" height="16"/>
+  <object id="116" name="golden_veggie" gid="155" x="904" y="888" width="16" height="16"/>
+ </objectgroup>
+ <objectgroup id="10" name="objects-32px">
+  <object id="117" name="chest" gid="159" x="128" y="544" width="32" height="32">
+   <properties>
+    <property name="item_no" value="24"/>
+    <property name="type" value="costume_head"/>
+   </properties>
+  </object>
+  <object id="118" name="treetop_birch" gid="181" x="832" y="544" width="32" height="32">
+   <properties>
+    <property name="position" value="front"/>
+   </properties>
+  </object>
+  <object id="119" name="treetop_birch" gid="181" x="800" y="480" width="32" height="32">
+   <properties>
+    <property name="position" value="front"/>
+   </properties>
+  </object>
+  <object id="120" name="treetop_birch" gid="181" x="768" y="640" width="32" height="32">
+   <properties>
+    <property name="position" value="front"/>
+   </properties>
+  </object>
+  <object id="121" name="treetop_birch" gid="181" x="384" y="384" width="32" height="32">
+   <properties>
+    <property name="position" value="front"/>
+   </properties>
+  </object>
+  <object id="122" name="treetop_birch" gid="181" x="576" y="416" width="32" height="32">
+   <properties>
+    <property name="position" value="front"/>
+   </properties>
+  </object>
+  <object id="123" name="treetop_birch" gid="181" x="800" y="224" width="32" height="32">
+   <properties>
+    <property name="position" value="front"/>
+   </properties>
+  </object>
+  <object id="124" name="treetop_birch" gid="181" x="864" y="224" width="32" height="32">
+   <properties>
+    <property name="position" value="front"/>
+   </properties>
+  </object>
+  <object id="125" name="treetop_birch" gid="181" x="576" y="160" width="32" height="32">
+   <properties>
+    <property name="position" value="front"/>
+   </properties>
+  </object>
+  <object id="126" name="treetop_birch" gid="181" x="192" y="160" width="32" height="32">
+   <properties>
+    <property name="position" value="front"/>
+   </properties>
+  </object>
+  <object id="127" name="bush" gid="179" x="640" y="224" width="32" height="32"/>
+  <object id="128" name="bush" gid="179" x="672" y="352" width="32" height="32"/>
+  <object id="129" name="bush" gid="179" x="320" y="416" width="32" height="32"/>
+  <object id="130" name="bush" gid="179" x="640" y="480" width="32" height="32"/>
+  <object id="131" name="bush" gid="179" x="896" y="480" width="32" height="32"/>
+  <object id="132" name="bush" gid="179" x="864" y="704" width="32" height="32"/>
+  <object id="133" name="bush" gid="179" x="160" y="384" width="32" height="32"/>
+  <object id="134" name="piggie" gid="162" x="704" y="480" width="32" height="32"/>
+  <object id="135" name="walking_enemy" gid="163" x="480" y="224" width="32" height="32">
+   <properties>
+    <property name="bound_to_platform" value="true"/>
+    <property name="direction" value="left"/>
+   </properties>
+  </object>
+  <object id="136" name="start" gid="160" x="144" y="224" width="32" height="32">
+   <properties>
+    <property name="direction" value="right"/>
+    <property name="health" value="100"/>
+   </properties>
+  </object>
+  <object id="137" name="goal" gid="161" x="832" y="672" width="32" height="32"/>
+ </objectgroup>
+</map>

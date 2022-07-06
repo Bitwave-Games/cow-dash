@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="30" height="10" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="time_to_beat" value="60"/>
+ </properties>
+ <tileset firstgid="1" name="grass_level" tilewidth="32" tileheight="32">
+  <image source="../sprites/tilesets/34tile.png" width="544" height="306"/>
+ </tileset>
+ <tileset firstgid="154" name="object_tilemap_32" tilewidth="32" tileheight="32">
+  <image source="../sprites/tilesets/object_tilemap_32.png" width="160" height="160"/>
+  <tile id="0">
+   <properties>
+    <property name="item_no" value="5"/>
+    <property name="type" value="costume_head"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="spawn" value="spawn"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="goal" value="goal"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="name" value="pig"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="direction" value="left"/>
+    <property name="name" value="walking_enemy"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="179" name="object_tilemap_16" tilewidth="16" tileheight="16">
+  <image source="../sprites/tilesets/object_tilemap_16.png" width="64" height="48"/>
+ </tileset>
+ <layer name="background" width="30" height="10">
+  <properties>
+   <property name="background" value="background"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIKhAQAEsAAB
+  </data>
+ </layer>
+ <layer name="main" width="30" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYGBgYARiZgb6A1MgNhsAe12B2APKZkLDuAAbAUyqvcQCcQKYWvZGA3EMAToaiU+svRFoYlJofCEizSJFbRgQqzJgxi0Iw9I5texlRDJbGYiFcWARqDnE2ktIrRAeuwaDvbjCH1tYEVKLrB4A+lYMig==
+  </data>
+ </layer>
+ <layer name="foreground" width="30" height="10">
+  <properties>
+   <property name="foreground" value="foreground"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIKhAQAEsAAB
+  </data>
+ </layer>
+ <layer name="hints" width="30" height="10">
+  <properties>
+   <property name="Hint1" value="Enemies will kill you:head on!have you tried:jumping on them?"/>
+   <property name="Hint2" value="Cows need veggies to:keep running,: just like you!"/>
+   <property name="Hint3" value="Some doors can only:be opened one way:But at least you dont:need keys!"/>
+   <property name="Hint4">Some enemies can be:used as a
+trampoline.:Just make sure to tap:the screen
+the moment:you land on them!</property>
+   <property name="Hint5" value="Watch out for spikes:they hurt alot!"/>
+   <property name="Hint6" value="Be careful not to fall:off cliffs!"/>
+   <property name="Hint7">Have you seen those:giant pigs?
+Why don't:you try jumping on: them?</property>
+   <property name="Hint8" value="Noticed that shining chrystal?: Thats where you want to be!"/>
+   <property name="Hint9" value="Most enemies remain in the:same area.:But watch out!They might:feel like jumping off!"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIKhAQAEsAAB
+  </data>
+ </layer>
+ <objectgroup color="#e70000" name="hard-blocks">
+  <object x="32" y="0" width="64" height="320"/>
+  <object x="32" y="224" height="80"/>
+  <object x="0" y="224" width="32" height="96"/>
+  <object x="96" y="192" width="192" height="128"/>
+  <object x="256" y="96" width="32" height="96"/>
+  <object x="640" y="288" width="320" height="32"/>
+  <object x="896" y="192" width="64" height="96"/>
+  <object x="672" y="160" width="32" height="128"/>
+  <object x="320" y="160" width="32" height="128"/>
+  <object x="744" y="208"/>
+  <object x="640" y="224" width="32" height="64"/>
+  <object x="128" y="64" width="128" height="32"/>
+  <object x="128" y="0" width="128" height="32"/>
+ </objectgroup>
+ <objectgroup color="#0055ff" name="soft-blocks">
+  <object x="320" y="128" width="384" height="32"/>
+  <object x="744" y="208"/>
+  <object x="288" y="288" width="384" height="32"/>
+ </objectgroup>
+ <objectgroup name="objects-32px">
+  <object name="start" gid="155" x="160" y="192">
+   <properties>
+    <property name="direction" value="right"/>
+    <property name="health" value="10"/>
+   </properties>
+  </object>
+  <object name="goal" gid="156" x="832" y="256"/>
+  <object name="piggie" gid="157" x="640" y="224"/>
+  <object name="door" gid="166" x="456" y="-48">
+   <properties>
+    <property name="color" value="red"/>
+   </properties>
+  </object>
+  <object name="door" gid="165" x="288" y="288">
+   <properties>
+    <property name="color" value="yellow"/>
+   </properties>
+  </object>
+  <object name="door" gid="164" x="832" y="288">
+   <properties>
+    <property name="color" value="blue"/>
+   </properties>
+  </object>
+  <object name="bush" gid="174" x="352" y="128">
+   <properties>
+    <property name="position" value="front"/>
+   </properties>
+  </object>
+  <object name="bush" gid="174" x="416" y="128"/>
+  <object name="treetop_maple" gid="175" x="448" y="64">
+   <properties>
+    <property name="position" value="front"/>
+   </properties>
+  </object>
+  <object name="treetop_maple" gid="175" x="512" y="64"/>
+  <object name="treetop_birch" gid="176" x="576" y="64">
+   <properties>
+    <property name="position" value="front"/>
+   </properties>
+  </object>
+  <object name="treetop_birch" gid="176" x="640" y="64"/>
+  <object name="jumping_enemy" gid="167" x="360" y="224"/>
+  <object name="walking_enemy" gid="158" x="520" y="288">
+   <properties>
+    <property name="direction" value="right"/>
+   </properties>
+  </object>
+  <object name="walking_enemy" gid="158" x="176" y="64">
+   <properties>
+    <property name="bound_to_platform" value="false"/>
+    <property name="direction" value="left"/>
+   </properties>
+  </object>
+  <object name="walking_enemy" gid="158" x="440" y="128">
+   <properties>
+    <property name="bound_to_platform" value="false"/>
+    <property name="direction" value="left"/>
+   </properties>
+  </object>
+  <object name="walking_enemy" gid="158" x="432" y="288">
+   <properties>
+    <property name="direction" value="right"/>
+   </properties>
+  </object>
+  <object name="jumping_enemy" gid="167" x="128" y="160"/>
+ </objectgroup>
+ <objectgroup name="objects-16px">
+  <object name="spike" gid="186" x="104" y="24"/>
+  <object name="veggie" gid="182" x="328" y="248"/>
+  <object name="veggie" gid="182" x="328" y="280"/>
+  <object name="veggie" gid="182" x="776" y="280"/>
+  <object name="veggie" gid="182" x="712" y="280"/>
+  <object name="veggie" gid="182" x="360" y="280"/>
+  <object name="golden_veggie" gid="187" x="328" y="120"/>
+  <object name="Bird" gid="188" x="544" y="288"/>
+  <object name="Bird" gid="188" x="480" y="288"/>
+  <object name="Bird" gid="188" x="584" y="288"/>
+  <object name="Bird" gid="188" x="304" y="280"/>
+  <object name="Bird" gid="188" x="536" y="288"/>
+  <object name="Bird" gid="188" x="496" y="168"/>
+  <object name="Bird" gid="188" x="544" y="288"/>
+  <object name="Bird" gid="188" x="464" y="272"/>
+  <object name="Bird" gid="188" x="608" y="288"/>
+  <object name="Bird" gid="188" x="592" y="288"/>
+  <object name="Bird" gid="188" x="696" y="288"/>
+  <object name="Bird" gid="188" x="576" y="280"/>
+  <object name="Bird" gid="188" x="416" y="288"/>
+  <object name="Bird" gid="188" x="520" y="288"/>
+  <object name="Bird" gid="188" x="480" y="288"/>
+  <object name="golden_veggie" gid="187" x="392" y="120"/>
+  <object name="golden_veggie" gid="187" x="424" y="264"/>
+  <object name="golden_veggie" gid="187" x="488" y="264"/>
+  <object name="golden_veggie" gid="187" x="552" y="264"/>
+  <object name="golden_veggie" gid="187" x="616" y="264"/>
+  <object name="golden_veggie" gid="187" x="680" y="264"/>
+  <object name="golden_veggie" gid="187" x="488" y="56"/>
+  <object name="golden_veggie" gid="187" x="552" y="56"/>
+  <object name="golden_veggie" gid="187" x="616" y="56"/>
+  <object name="golden_veggie" gid="187" x="680" y="56"/>
+ </objectgroup>
+ <objectgroup name="treetop_big"/>
+</map>

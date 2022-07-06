@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="45" height="10" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="hints" value="hardblocks,spikes"/>
+  <property name="time_to_beat" value="7"/>
+ </properties>
+ <tileset firstgid="1" name="grass_level" tilewidth="33" tileheight="33" spacing="1" margin="1">
+  <image source="../../sprites/tilesets/34tile.png" width="544" height="306"/>
+ </tileset>
+ <tileset firstgid="145" name="treetops_big_96" tilewidth="96" tileheight="64">
+  <image source="../../sprites/objects/scenery/treetops_big_96.png" width="192" height="64"/>
+ </tileset>
+ <tileset firstgid="147" name="object_tilemap_16" tilewidth="16" tileheight="16">
+  <image source="../../sprites/tilesets/object_tilemap_16.png" width="64" height="48"/>
+ </tileset>
+ <tileset firstgid="159" name="object_tilemap_32" tilewidth="32" tileheight="32">
+  <image source="../../sprites/tilesets/object_tilemap_32.png" width="160" height="160"/>
+  <tile id="0">
+   <properties>
+    <property name="item_no" value="5"/>
+    <property name="type" value="costume_head"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="spawn" value="spawn"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="goal" value="goal"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="name" value="pig"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="direction" value="left"/>
+    <property name="name" value="walking_enemy"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="background" width="45" height="10">
+  <properties>
+   <property name="background" value="background"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFowA3yAfiBjzyXHRyBykgnwG/u6Xo5xSiQT4DfncT42Zqx0UEEHtA6Sws8vkM+N2tRYQd9I4LdDf34lEbj4SRATY3R6HxCcVFBBq/BwfG5mZ8aRvZzREMiDhEjotMKIbFKcwtWmh8fACXe/G5eaABPjcDAJCGIJw=
+  </data>
+ </layer>
+ <layer name="main" width="45" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYmBgYGYYGoARiJmAWAiIhQfYLcQCQQaIe0fdTFsw6mb6gMHsZlj5gI4VGYh3M7IZ9CgXkcMzCQsmxs20jBNsYQoLz2QgVgJiPigNwyA5ZSz6cMUJIbWkYmSzkTHIvTxobgVhXiAGAC07CBI=
+  </data>
+ </layer>
+ <layer name="foreground" width="45" height="10">
+  <properties>
+   <property name="foreground" value="foreground"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjALaAo+BdsAgAdQIh0oK9UsSocaDSHXDBQAATRoBhA==
+  </data>
+ </layer>
+ <layer name="hints" width="45" height="10">
+  <properties>
+   <property name="Hardblocks" value="Cow will turn when:colliding with walls:Time your steps!"/>
+   <property name="Spikes" value="Watch out for spikes,:they hurt alot!"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGLgAABwgAAQ==
+  </data>
+ </layer>
+ <objectgroup color="#e70000" name="hard-blocks">
+  <object x="0" y="0" width="64" height="320"/>
+  <object x="64" y="288" width="224" height="32"/>
+  <object x="288" y="224" width="128" height="96"/>
+  <object x="416" y="288" width="608" height="32"/>
+  <object x="1024" y="256" width="160" height="64"/>
+  <object x="1184" y="192" width="192" height="128"/>
+  <object x="1376" y="0" width="64" height="320"/>
+ </objectgroup>
+ <objectgroup color="#0055ff" name="soft-blocks"/>
+ <objectgroup name="treetop_big">
+  <object name="treetop_big" gid="145" x="256" y="96">
+   <properties>
+    <property name="position" value="front"/>
+   </properties>
+  </object>
+  <object name="treetop_big" gid="145" x="544" y="160"/>
+  <object name="treetop_big" gid="145" x="832" y="224"/>
+ </objectgroup>
+ <objectgroup name="objects-16px">
+  <object name="spike" gid="154" x="416" y="248"/>
+  <object name="spike" gid="154" x="408" y="264" rotation="-2.52612"/>
+  <object name="spike" gid="154" x="688" y="288"/>
+  <object name="spike" gid="154" x="672" y="288"/>
+  <object name="spike" gid="154" x="680" y="280"/>
+  <object name="spike" gid="154" x="1176" y="216"/>
+  <object name="spike" gid="154" x="1184" y="232"/>
+  <object name="spike" gid="154" x="1016" y="280"/>
+  <object name="spike" gid="154" x="1032" y="288"/>
+  <object name="spike" gid="154" x="1024" y="296"/>
+  <object name="spike" gid="154" x="1360" y="144"/>
+  <object name="spike" gid="154" x="1368" y="152"/>
+  <object name="spike" gid="154" x="1360" y="192"/>
+  <object name="spike" gid="154" x="1368" y="176"/>
+  <object name="veggie" gid="150" x="552" y="280"/>
+  <object name="veggie" gid="150" x="616" y="280"/>
+  <object name="veggie" gid="150" x="584" y="280"/>
+  <object name="veggie" gid="150" x="712" y="256"/>
+  <object name="veggie" gid="150" x="680" y="240"/>
+  <object name="veggie" gid="150" x="648" y="264"/>
+  <object name="veggie" gid="150" x="960" y="280"/>
+  <object name="veggie" gid="150" x="1024" y="240"/>
+  <object name="veggie" gid="150" x="984" y="256"/>
+  <object name="veggie" gid="150" x="1056" y="248"/>
+  <object name="veggie" gid="150" x="1096" y="248"/>
+  <object name="veggie" gid="150" x="1128" y="224"/>
+  <object name="veggie" gid="150" x="1176" y="184"/>
+  <object name="veggie" gid="150" x="1152" y="208"/>
+  <object name="veggie" gid="150" x="1216" y="184"/>
+ </objectgroup>
+ <objectgroup name="objects-32px">
+  <object name="chest" gid="159" x="96" y="288">
+   <properties>
+    <property name="item_no" value="2"/>
+    <property name="type" value="costume_leg"/>
+   </properties>
+  </object>
+  <object name="bush" gid="179" x="256" y="288"/>
+  <object name="bush" gid="179" x="352" y="224"/>
+  <object name="bush" gid="179" x="736" y="288"/>
+  <object name="bush" gid="179" x="1152" y="256"/>
+  <object name="treetop_maple" gid="180" x="736" y="224"/>
+  <object name="treetop_maple" gid="180" x="1312" y="160"/>
+  <object name="start" gid="160" x="480" y="288">
+   <properties>
+    <property name="direction" value="right"/>
+    <property name="health" value="100"/>
+   </properties>
+  </object>
+  <object name="goal" gid="161" x="1248" y="184"/>
+ </objectgroup>
+</map>

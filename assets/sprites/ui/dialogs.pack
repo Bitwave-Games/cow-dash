@@ -1,0 +1,353 @@
+
+dialogs.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+premium_es
+  rotate: false
+  xy: 1, 783
+  size: 400, 240
+  orig: 400, 240
+  offset: 0, 0
+  index: -1
+premium_zh
+  rotate: false
+  xy: 1, 541
+  size: 400, 240
+  orig: 400, 240
+  offset: 0, 0
+  index: -1
+pause_screen_es
+  rotate: false
+  xy: 403, 783
+  size: 400, 240
+  orig: 400, 240
+  offset: 0, 0
+  index: -1
+win_screen_bg
+  rotate: false
+  xy: 1, 299
+  size: 400, 240
+  orig: 400, 240
+  offset: 0, 0
+  index: -1
+pause_screen
+  rotate: false
+  xy: 403, 541
+  size: 400, 240
+  orig: 400, 240
+  offset: 0, 0
+  index: -1
+premium
+  rotate: false
+  xy: 1, 57
+  size: 400, 240
+  orig: 400, 240
+  offset: 0, 0
+  index: -1
+unlock_screen_bw
+  rotate: false
+  xy: 1, 1
+  size: 400, 54
+  orig: 400, 54
+  offset: 0, 0
+  index: -1
+death_screen
+  rotate: false
+  xy: 403, 299
+  size: 400, 240
+  orig: 400, 240
+  offset: 0, 0
+  index: -1
+pause_screen_zh
+  rotate: false
+  xy: 403, 57
+  size: 400, 240
+  orig: 400, 240
+  offset: 0, 0
+  index: -1
+premium_already_purchased_es
+  rotate: false
+  xy: 403, 41
+  size: 400, 14
+  orig: 400, 14
+  offset: 0, 0
+  index: -1
+premium_already_purchased_zh
+  rotate: false
+  xy: 403, 25
+  size: 400, 14
+  orig: 400, 14
+  offset: 0, 0
+  index: -1
+premium_already_purchased
+  rotate: false
+  xy: 403, 9
+  size: 400, 14
+  orig: 400, 14
+  offset: 0, 0
+  index: -1
+sparkly_sparkle_red_16x16_strip8
+  rotate: false
+  xy: 805, 1007
+  size: 128, 16
+  orig: 128, 16
+  offset: 0, 0
+  index: -1
+sparkly_sparkle_yellow_16x16_strip8
+  rotate: false
+  xy: 805, 989
+  size: 128, 16
+  orig: 128, 16
+  offset: 0, 0
+  index: -1
+sparkly_sparkle_green_16x16_strip8
+  rotate: false
+  xy: 805, 971
+  size: 128, 16
+  orig: 128, 16
+  offset: 0, 0
+  index: -1
+pause_button_icon
+  rotate: false
+  xy: 805, 905
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+winscreen_next_level
+  rotate: false
+  xy: 805, 839
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+pause_button_icon_normal
+  rotate: false
+  xy: 805, 773
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+pause_screen_replay
+  rotate: false
+  xy: 805, 707
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+winscreen_my_cow
+  rotate: false
+  xy: 805, 641
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+pause_screen_replay_normal
+  rotate: false
+  xy: 805, 575
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+treasure_medal_1frame
+  rotate: false
+  xy: 805, 509
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+death_screen_level_select
+  rotate: false
+  xy: 805, 443
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+winscreen_level_select
+  rotate: false
+  xy: 805, 443
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+endscreen_back_brown
+  rotate: false
+  xy: 805, 377
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+death_screen_level_select_normal
+  rotate: false
+  xy: 805, 311
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+winscreen_level_select_normal
+  rotate: false
+  xy: 805, 311
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+time_medal_1frame
+  rotate: false
+  xy: 805, 245
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+pause_screen_level_select_normal
+  rotate: false
+  xy: 805, 179
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+pause_screen_resume
+  rotate: false
+  xy: 805, 113
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+pause_screen_resume_normal
+  rotate: false
+  xy: 805, 47
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+winscreen_my_cow_normal
+  rotate: false
+  xy: 871, 905
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+death_screen_replay_normal
+  rotate: false
+  xy: 871, 839
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+winscreen_replay_normal
+  rotate: false
+  xy: 871, 839
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+pause_button
+  rotate: false
+  xy: 871, 773
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+winscreen_next_level_normal
+  rotate: false
+  xy: 871, 707
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+endscreen_yes_brown
+  rotate: false
+  xy: 871, 641
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+pause_screen_level_select
+  rotate: false
+  xy: 871, 575
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+endscreen_back_blue
+  rotate: false
+  xy: 871, 509
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+endscreen_yes_blue
+  rotate: false
+  xy: 871, 443
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+medal_shadow
+  rotate: false
+  xy: 871, 377
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+veggie_medal_1frame
+  rotate: false
+  xy: 871, 311
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+death_screen_replay
+  rotate: false
+  xy: 871, 245
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+winscreen_replay
+  rotate: false
+  xy: 871, 245
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+premium_close
+  rotate: false
+  xy: 805, 23
+  size: 22, 22
+  orig: 22, 22
+  offset: 0, 0
+  index: -1
+whiterect
+  rotate: false
+  xy: 403, 6
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+
+dialogs2.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+medal_veggie_spritesheet_colored
+  rotate: false
+  xy: 1, 133
+  size: 512, 64
+  orig: 512, 64
+  offset: 0, 0
+  index: -1
+medal_treasure_spritesheet_colored
+  rotate: false
+  xy: 1, 67
+  size: 512, 64
+  orig: 512, 64
+  offset: 0, 0
+  index: -1
+medal_time_spritesheet_colored
+  rotate: false
+  xy: 1, 1
+  size: 512, 64
+  orig: 512, 64
+  offset: 0, 0
+  index: -1
