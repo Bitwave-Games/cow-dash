@@ -67,7 +67,7 @@ public class CowDash extends Game {
         //Pressing F will change fullscreen to windowed
         if (Gdx.input.isKeyJustPressed(Input.Keys.F)) {
             if(Gdx.graphics.isFullscreen()) {
-                Gdx.graphics.setWindowedMode(1389,642);
+                Gdx.graphics.setWindowedMode(1280,720);
             } else {
                 Gdx.graphics.setFullscreenMode(Gdx.graphics.getDisplayMode());
             }
